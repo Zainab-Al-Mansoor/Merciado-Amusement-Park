@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merciado Amusement Park</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <!-- color theme 
+    #22577A
+#38A3A5
+#57CC99
+#80ED99
+#C7F9CC 
+    -->
+    <!-- Navbar -->
+    <nav style="background-color: #38A3A5;" class="navbar navbar-expand-lg  navbar-light">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#"><b>Merciado Amusement Park</b></a>
+            
+            <!-- Navbar Toggle Button for mobile responsiveness -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Attractions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tickets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Events</a>
+                    </li>
+                    <li  class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu "style="background-color: #38A3A5;" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">About Us</a></li>
+                            <li><a class="dropdown-item" href="#">Contact</a></li>
+                            <li><a class="dropdown-item" href="#">Careers</a></li>
+                        </ul>
+                    </li>
+                </ul>
+    
+                <!-- Search Form -->
+                <form class="d-flex">
+                    <input class="form-control me-2" style="background-color: #38A3A5;" type="search" placeholder="Search" aria-label="Search">
+                    <button style="height: 50px;  display: flex; align-items: center;" class="cta-button button-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    
+    <!--Merciado Amusement Park Video -->
+    <section class="video-section  container">
+        <div class="video-wrapper ">
+            <video controls muted>
+                <source src="Merciado_Amusement_Park (3).mp4" alt="Your browser does not support the video tag" type="video/mp4">
+            </video>
+        </div>
+    </section>
+
+
+    
+<!-- Hero Section -->
+     <section class="hero ">
+        <div class="hero-content ">
+            <h1>Experience the Thrill at Merciado Amusement Park!</h1>
+            <p>Your ultimate destination for adventure, fun, and family memories.</p>
+            <a href="#tickets" class="cta-button  button-light">Buy Tickets</a>
+        </div>
+    </section>
+
+
+
+
+     <!-- Featured Attractions -->
+     <section class="featured-attractions">
+        <h2><b>Featured Attractions</b></h2>
+        <div class="attraction-cards">
+            <div class="attraction-card">
+                <img src="supercoster.jpg" alt="SuperCoaster">
+                <h3><b>SuperCoaster</b></h3>
+                <p>Experience high-speed thrills and jaw-dropping drops!</p>
+                <a href="#" class="cta-button button-primary">Learn More</a>
+            </div>
+            <div class="attraction-card">
+                <img src="Wheel.jpg" alt="Magic Wheel">
+                <h3><b>Pirate Ship</b></h3>
+                <p>Spin your way through the sky with a panoramic view.</p>
+                <a href="#" class="cta-button button-primary">Learn More</a>
+            </div>
+            <div class="attraction-card">
+                <img src="ship.jpg" alt="Pirate Ship">
+                <h3><b>Pirate Ship</b></h3>
+                <p>Set sail on an exciting adventure with this swaying ride!</p>
+                <a href="#" class="cta-button button-primary">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+   <!-- Special Offers -->
+   <section class="special-offers">
+    <h2>Special Offers</h2>
+    <p>Don't miss out on our exciting discounts and packages!</p>
+    <a href="#offers" class="cta-button button-accent">Grab Your Discount</a>
+</section>
+
+
+
+<!-- Newsletter Subscription Section -->
+<section class="newsletter mt-5 ">
+    <div class="container">
+        <h2>Stay Updated!</h2>
+        <p>Sign up for our newsletter and get the latest updates and exclusive offers delivered right to your inbox!</p>
+        <form action="#" method="POST" class="newsletter-form">
+            <input type="email" name="email" placeholder="Your Email Address" required>
+            <a href="Index.html" type="submit" class="cta-button button-accent">Subscribe</a>
+        </form>
+    </div>
+</section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h2>What Our Guests Say</h2>
+        <div class="testimonial">
+            <p>"A day filled with laughter, thrills, and unforgettable memories. We’ll be back for sure!"</p>
+            <span>- Sarah L.</span>
+        </div>
+        <div class="testimonial">
+            <p>"The best place for family fun! My kids had the time of their lives."</p>
+            <span>- Tom R.</span>
+        </div>
+    </section>
+
+
+
+      <!-- Call to Action -->
+      <section class="cta">
+        <h2>Join Us Today!</h2>
+        <p>Get the latest news, exclusive deals, and more.</p>
+        <a href="#newsletter" class=" cta-button button-light">Sign Up for Exclusive Deals</a>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
