@@ -36,29 +36,3 @@ document.getElementById('favoriteRideForm').addEventListener('submit', function(
 
 
 
-// newsletter 
-// Validation of email 
-function SubmittedEmail(){
-let EmailInput=document.getElementById('EmailInput').value;
-isValid=true;
-
-if (EmailInput===""){
-   let EmailError=document.getElementById('EmailError');
-   EmailError.style=display='block';
-   isValid=false;
-
-}
-
-
-
-
-return isValid=true;
-
-
-
-
-
-
-
-
-}
