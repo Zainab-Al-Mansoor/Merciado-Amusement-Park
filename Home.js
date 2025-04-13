@@ -1,8 +1,8 @@
     // Toggle the display of rule details
-    function toggleRule(ruleItem) {
-        const ruleDetails = ruleItem.querySelector('.rule-details');
-        ruleDetails.style.display = ruleDetails.style.display === 'block' ? 'none' : 'block';
-    }
+    // function toggleRule(ruleItem) {
+    //     const ruleDetails = ruleItem.querySelector('.rule-details');
+    //     ruleDetails.style.display = ruleDetails.style.display === 'block' ? 'none' : 'block';
+    // }
 
     // Show acknowledgement modal
     function acknowledgeRules() {

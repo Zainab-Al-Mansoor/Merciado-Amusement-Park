@@ -11,12 +11,70 @@ body {
     line-height: 1.6;
     color: #22577A;
 }
-/* navbar */
-nav{
-    background-color: #38a3a5;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    height: 69px;
+/* for all anchor tag */
+a{
+    text-decoration: none;
 }
+
+
+/* video  */
+
+  .video-section {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .video-wrapper {
+    position: relative;
+  }
+
+  .video-heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+  }
+
+  video {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .video-heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 2;
+}
+
+@media (max-width: 768px) {
+    .video-heading {
+        font-size: 1.8rem;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .video-heading {
+        font-size: 1.3rem;
+        padding: 8px 15px;
+    }
+}
+
+
 
 /* Hero Section */
 .hero{
@@ -158,36 +216,6 @@ nav{
     text-decoration: underline;
 }
 
-/* Video Section */
-.video-section {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-
-}
-
-.video-wrapper {
-    position: relative;
-    width: 100%;
-}
-
-.video-wrapper video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.video-section h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-}
-
-.video-section p {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-}
 
 /* Newsletter Section */
 .newsletter{
@@ -302,7 +330,7 @@ flex-direction: column;
 }
 
     .park-rules {
-        background-color: #57CC99;
+        background-color: #aae0c8;
         color: white;
         padding: 40px;
         text-align: center;
@@ -848,17 +876,13 @@ button {
         width: 90%;
     }
 
-    .video-section h2 {
-        font-size: 1.5rem;
-    }
 
-    .video-section p {
-        font-size: 1rem;
-    }
-
-    .video-wrapper video {
-        width: 100%;
-        height: 50%;
-        object-fit: cover;
-    }
+ 
 }
+footer {
+    position: static
+    ;
+    bottom: 0;
+    width: 100%;
+  }
+  

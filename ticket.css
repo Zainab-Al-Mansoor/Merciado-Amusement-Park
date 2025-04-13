@@ -1,0 +1,79 @@
+body {
+  background-color: #C7F9CC;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a{
+    text-decoration: none;
+}
+
+.card-text{
+    color: #22577A;
+}
+
+.card-title{
+    color: #22577A;
+
+}
+/* Button Styles */
+button {
+    padding: 15px 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #ffffff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button-primary {
+    background: linear-gradient(135deg, #22577A, #38A3A5);
+}
+
+.button-secondary {
+    background: linear-gradient(135deg, #57CC99, #80ED99);
+}
+
+.button-accent {
+    background: linear-gradient(135deg, #19bdc0, #57CC99);
+}
+
+.button-light {
+    background: linear-gradient(135deg, #C7F9CC, #57CC99);
+}
+
+.button-dark {
+    background: linear-gradient(135deg, #80ED99, #57CC99);
+}
+
+.button-primary:hover,
+.button-secondary:hover,
+.button-accent:hover,
+.button-light:hover,
+.button-dark:hover {
+    color: #ffffff;
+    transform: scale(1.05);
+}
+footer {
+    bottom: 0;
+    width: 100%;
+  }
+  
