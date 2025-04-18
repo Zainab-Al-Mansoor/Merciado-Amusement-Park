@@ -1,0 +1,12 @@
+
+
+footer {
+    position: static
+    ;
+    bottom: 0;
+    width: 100%;
+  }
+  /* for all anchor tag */
+a{
+    text-decoration: none;
+}
