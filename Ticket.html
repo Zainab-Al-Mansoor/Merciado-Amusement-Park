@@ -143,7 +143,7 @@
             <h5 class="card-title">Adult Ticket</h5>
             <p class="card-text">Enjoy unlimited access to all rides and attractions in the park for one day.</p>
             <h4 class="text-success ticket-price">$50.00</h4>
-            <button id="BtnAlert" onclick="ShowAlert()" class="button button-accent  w-100">Buy Now</button>
+            <button onclick="ShowAlert()" class="button button-accent  w-100">Buy Now</button>
           </div>
         </div>
       </div>
@@ -154,7 +154,7 @@
             <h5 class="card-title">Child Ticket</h5>
             <p class="card-text">Enjoy unlimited access to all rides and attractions for children under 12 years old.</p>
             <h4 class="text-success ticket-price">$30.00</h4>
-            <button id="BtnAlert" onclick="ShowAlert()" class="button button-accent  w-100">Buy Now</button>
+            <button  onclick="ShowAlert()" class="button button-accent  w-100">Buy Now</button>
           </div>
         </div>
       </div>
@@ -165,27 +165,25 @@
             <h5 class="card-title">Senior Ticket</h5>
             <p class="card-text">Enjoy unlimited access to all rides for seniors aged 60+.</p>
             <h4 class="text-success ticket-price">$40.00</h4>
-            <button id="BtnAlert" onclick="ShowAlert()" class="button button-accent  w-100">Buy Now</button>
+            <button  onclick="ShowAlert()" class="button button-accent  w-100">Buy Now</button>
           </div>
         </div>
       </div>
       <!-- Family Pack -->
-      <div class="col-md-4 mb-4">
+      <div class="col-md-4 mb-1">
         <div class="card ticket-card">
           <div class="card-body">
             <h5 class="card-title">Family Pack</h5>
             <p class="card-text">Get 2 Adult Tickets + 2 Child Tickets at a discounted rate.</p>
             <h4 class="text-success ticket-price">$140.00</h4>
-            <button id="BtnAlert" onclick="ShowAlert()" class="button button-accent  w-100">Buy Now</button>
+            <button onclick="ShowAlert()" class="button button-accent  w-100">Buy Now</button>
           </div>
         </div>
       </div>
     </div>
   </div>
   
- <br>
- 
-<br>
+
 <!-- Ticket Booking Dummy Process
 A simple form where user selects:
  Date
@@ -226,7 +224,8 @@ And clicks on &quot;Book Now&quot; -->
 
     <!-- Submit Button -->
     <div class="text-center mt-3">
-      <button type="submit" class="btn button-light">Book Now</button>
+      <button type="submit"  onclick="ShowAlert()"class="btn button-light">Book Now</button>
+      
     </div>
   </form>
 </div>

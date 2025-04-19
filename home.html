@@ -138,20 +138,55 @@ style="
 
   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 </div>
-
-
-<section class="video-section ">
-  <div class="video-wrapper">
-    <video autoplay muted loop playsinline>
-      <source
-        src="Merciado_Amusement_Park (4).mp4"
-        type="video/mp4"
-      />
-      Your browser does not support the video tag.
-    </video>
-    <div class="video-heading">Welcome to Merciado Amusement Park Video</div>
+<!-- image -->
+<section class="parallax-section">
+  <div class="parallax-content text-center text-white">
+    <h2>Welcome to Merciado Amusement Park</h2>
+    <p>Stroll through lush landscapes, peaceful lakes, and adventure-filled paths.</p>
   </div>
 </section>
+
+
+<style>
+  .parallax-section {
+  background-image: url('HomePageImages/park.jpg'); /* Replace with your scenic image */
+  height: 70vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parallax-content {
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent overlay */
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 80%;
+}
+
+.parallax-content h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.parallax-content p {
+  font-size: 1.2rem;
+  color: #e0f7fa;
+}
+
+.parallax-info-section {
+  background-color: #f0fff4;
+}
+
+</style>
+
+
+
 <br>
 
 
