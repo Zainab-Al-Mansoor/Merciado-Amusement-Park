@@ -17,86 +17,7 @@ a{
 }
 
 
-/* video  */
 
-  .video-section {
-    position: relative;
-    text-align: center;
-    color: white;
-  }
-
-  .video-wrapper {
-    position: relative;
-  }
-
-  .video-heading {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 2rem;
-    font-weight: bold;
-    padding: 10px 20px;
-    border-radius: 8px;
-  }
-
-  video {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-  .video-heading {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 2.5rem;
-    font-weight: bold;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 15px 25px;
-    border-radius: 10px;
-    text-align: center;
-    z-index: 2;
-}
-
-@media (max-width: 768px) {
-    .video-heading {
-        font-size: 1.8rem;
-        padding: 10px 20px;
-    }
-}
-
-@media (max-width: 576px) {
-    .video-heading {
-        font-size: 1.3rem;
-        padding: 8px 15px;
-    }
-}
-
-
-
-/* Hero Section */
-.hero{
-    background-color: #38A3A5;
-    color: #ffffff;
-    text-align: center;
-    padding: 100px 20px;
-    margin-top: 58px;
-    border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-
-}
-
-.hero h1 {
-    font-size: 3em;
-    margin-bottom: 20px;
-}
-
-.hero p {
-    font-size: 1.5em;
-    margin-bottom: 30px;
-}
 
 /* Featured Attractions */
 .featured-attractions {
@@ -223,8 +144,7 @@ a{
     padding: 50px 20px;
     text-align: center;
     color: #22577A;
-    border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  
 }
 
 .newsletter h2 {
@@ -272,9 +192,7 @@ flex-direction: column;
     text-align: center;
     padding: 40px;
     background-color: #aae0c8; 
-    margin: 20px auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+   
 }
 
 /* Gallery Heading */
@@ -293,7 +211,7 @@ flex-direction: column;
    flex-direction: row;
    flex-wrap: wrap;
     gap: 20px; 
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .gallery-item {
@@ -329,47 +247,7 @@ flex-direction: column;
     }
 }
 
-    .park-rules {
-        background-color: #aae0c8;
-        color: white;
-        padding: 40px;
-        text-align: center;
-        border-radius: 8px;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    }
-
-    .park-rules h2 {
-        font-size: 2.5rem;
-        margin-bottom: 20px;
-        color: #22577A;
-    }
-
-    .rules-container {
-        max-width: 800px;
-        margin: 0 auto;
-        text-align: left;
-    }
-
-    .rule-item {
-        background-color: #22577A;
-        color: white;
-        padding: 15px;
-        margin: 10px 0;
-        border-radius: 10px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-    }
-
-    .rule-item:hover {
-        background-color: #38A3A5;
-    }
-
-    .rule-details {
-        display: none;
-        padding-top: 10px;
-        font-size: 1.1rem;
-    }
-
+ 
     .cta-button {
         padding: 12px 30px;
         background-color: #22577A;
@@ -390,12 +268,7 @@ flex-direction: column;
         background-color: #57CC99;
     }
 
-    @media (max-width: 768px) {
-        .rule-item h4 {
-            font-size: 1.4rem;
-        }
-    }
-
+    
 
 
     /* Seasonal Events Section Styling */
@@ -405,7 +278,7 @@ flex-direction: column;
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin: 20px auto;
+    /* margin: 20px auto; */
     text-align: center;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
@@ -501,10 +374,28 @@ padding-bottom: 30px;    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         width: 100%;
     }
 }
+/* Hero Section */
+.hero{
+    background-color: #38A3A5;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 20px;
+
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
 
 
 .membership {
-    background-color: #38A3A5;
+    background-color: #22577A;
     color: white;
     padding: 40px 0;
 }
@@ -537,12 +428,12 @@ padding-bottom: 30px;    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .option {
-    background-color: #22577A;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
     width: 30%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    color: white;
+    color: #22577A;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -576,19 +467,6 @@ padding-bottom: 30px;    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
 }
 
-.btn {
-    background-color: #57CC99;
-    color: white;
-    padding: 12px 20px;
-    font-size: 16px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-    background-color: #80ED99;
-}
 
 .membership-benefits {
     background-color: #22577A;

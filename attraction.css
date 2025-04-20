@@ -1,0 +1,185 @@
+
+
+.parallax-section {
+background-image: url('HomePageImages/attractionpark.webp'); /* Replace with your scenic image */
+height: 70vh;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.parallax-content {
+background-color: rgba(0, 0, 0, 0.5); /* semi-transparent overlay */
+padding: 40px;
+border-radius: 12px;
+max-width: 80%;
+}
+
+.parallax-content h2 {
+font-size: 2.5rem;
+font-weight: bold;
+color: #fff;
+}
+
+.parallax-content p {
+font-size: 1.2rem;
+color: #e0f7fa;
+}
+
+.parallax-info-section {
+background-color: #f0fff4;
+}
+
+
+    /* General Layout */
+.ride-listings {
+  background-color: #C7F9CC;
+  padding: 40px;
+  font-family: 'Segoe UI', sans-serif;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Accordion Base */
+.ride-item details {
+  background-color: #80ED99;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  transition: background-color 0.3s ease;
+}
+
+.ride-item summary {
+  cursor: pointer;
+  padding: 15px 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2B5555;
+  list-style: none;
+  position: relative;
+}
+
+.ride-item details[open] {
+  background-color: #57CC99;
+}
+
+.ride-item summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Ride Content Styling */
+.ride-content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #C7F9CC;
+  border-top: 1px solid #57CC99;
+  animation: fadeIn 0.5s ease;
+}
+
+.ride-content img {
+  max-width: 100%;
+  border-radius: 6px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 15px;
+}
+
+.ride-content img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 10px #57CC99;
+}
+
+/* Hover Preview Effect */
+.ride-info .preview {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.4s ease;
+  color: #2B5555;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.ride-item:hover .preview {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Ride Details List */
+.ride-info ul {
+  padding-left: 20px;
+  margin: 10px 0;
+  color: #2B5555;
+}
+
+.ride-info li {
+  margin-bottom: 5px;
+}
+
+/* Wait Time Section */
+.wait-time {
+  margin-top: 15px;
+}
+
+.wait-time span {
+  display: block;
+  font-weight: 500;
+  color: #2B5555;
+  margin-bottom: 6px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background-color: #E0F8E0;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.progress-bar::before {
+  content: '';
+  display: block;
+  height: 100%;
+  transition: width 0.4s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Wait Time Levels */
+.progress-bar.short::before {
+  width: 30%;
+  background-color: #80ED99;
+}
+
+.progress-bar.medium::before {
+  width: 60%;
+  background-color: #57CC99;
+}
+
+.progress-bar.long::before {
+  width: 90%;
+  background-color: #38A3A5;
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* sec of park */

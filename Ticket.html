@@ -21,110 +21,121 @@
     -->
   <!-- Navbar -->
   <nav
-  class="navbar navbar-expand-lg navbar-light"
-  style="
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(34, 87, 122, 0.3);
-  "
+class="navbar navbar-expand-lg navbar-light"
+style="
+  background-color: white;
+  box-shadow: 0 1px 4px rgba(34, 87, 122, 0.3);
+  border: 1px solid rgb(232, 232, 232);
+
+"
+>
+<style>
+  .navbar-light .navbar-nav .nav-link {
+    color: #22577a;
+  }
+
+  .navbar-light .navbar-brand {
+    color: #22577a;
+  }
+
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .show > .nav-link {
+    color: #22577a;
+  }  .navbar-light .navbar-brand:hover {
+    color: #3e7ba4;
+  }
+
+
+  .navbar-brand img {
+    width: 80px;
+    max-height: 60px; 
+  }
+</style>
+
+<div class="container-fluid">
+  <!-- Logo -->
+  <a class="navbar-brand" href="#">
+    <img src="HomePageImages/logo1.png" alt="">
+  </a>
+  <a class="navbar-brand fs-6" href="#"><b>Merciado Amusement Park</b></a>
+
+  <!-- Navbar Toggle Button for mobile responsiveness -->
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-bs-toggle="collapse"
+    data-bs-target="#navbarNav"
+    aria-controls="navbarNav"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
   >
-  <style>
-    .navbar-light .navbar-nav .nav-link {
-      color: #22577a;
-    }
-  
-    .navbar-light .navbar-brand {
-      color: #22577a;
-    }
-  
-    .navbar-light .navbar-nav .nav-link.active,
-    .navbar-light .navbar-nav .show > .nav-link {
-      color: #22577a;
-    }  .navbar-light .navbar-brand:hover {
-      color: #3e7ba4;
-    }
-  
-  
-    .navbar-brand img {
-      width: 80px;
-      max-height: 60px; 
-    }
-  </style>
-  
-  <div class="container-fluid">
-    <!-- Logo -->
-    <a class="navbar-brand" href="#">
-      <img src="HomePageImages/logo1.png" alt="">
-    </a>
-    <a class="navbar-brand fs-6" href="#"><b>Merciado Amusement Park</b></a>
-  
-    <!-- Navbar Toggle Button for mobile responsiveness -->
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarNav"
-      aria-controls="navbarNav"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <!-- Navbar Links -->
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="home.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="aboutUs.html">About Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="Ticket.html">Tickets</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="Entertaintment.html">Entertainments</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a
-            class="nav-link active dropdown-toggle"
-            href="#"
-            id="navbarDropdown"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            More
-          </a>
-          <ul
-            class="dropdown-menu"
-            style="background-color: #fff ;color: #22577a;"
-            aria-labelledby="navbarDropdown"
-          >
-            <li>
-              <a
-                style="background-color: #fff ;color: #22577a;"
-                class="dropdown-item "
-                href="Merciado-Amusement-Park/About Us/aboutUs.html"
-                >Attractions/Zones</a
-              >
-            </li>
-            <li>
-              <a
-                style="background-color: #fff ; color: #22577a;"
-                class="dropdown-item "
-                href="contactUs.html"
-                >Contact Us</a
-              >
-            </li>
-          
-          </ul>
-        </li>
-      </ul>
-  
-    </div>
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar Links -->
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="aboutUs.html">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="Ticket.html">Tickets</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="Entertaintment.html">Entertainments</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link active dropdown-toggle"
+          href="#"
+          id="navbarDropdown"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          More
+        </a>
+        <ul
+          class="dropdown-menu"
+          style="background-color: #fff ;color: #22577a;"
+          aria-labelledby="navbarDropdown"
+        >
+          <li>
+            <a
+              style="background-color: #fff ;color: #22577a;"
+              class="dropdown-item "
+              href="attraction.html"
+              >Attractions/Zones</a
+            >
+          </li>
+          <li>
+            <a
+              style="background-color: #fff ;color: #22577a;"
+              class="dropdown-item "
+              href="disclaimer.html"
+              >Disclaimer</a
+            >
+          </li>
+          <li>
+            <a
+              style="background-color: #fff ; color: #22577a;"
+              class="dropdown-item "
+              href="contactUs.html"
+              >Contact Us</a
+            >
+          </li>
+        
+
+        </ul>
+      </li>
+    </ul>
+
   </div>
-  </nav>
+</div>
+</nav>
 <!-- alert -->
 <div class="alert alert-warning alert-dismissible fade show " id="ALertTicket" style="display: none;" role="alert">
 

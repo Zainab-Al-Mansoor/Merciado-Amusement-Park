@@ -30,7 +30,9 @@
 class="navbar navbar-expand-lg navbar-light"
 style="
   background-color: white;
-  box-shadow: 0 4px 8px rgba(34, 87, 122, 0.3);
+  box-shadow: 0 1px 4px rgba(34, 87, 122, 0.3);
+  border: 1px solid rgb(232, 232, 232);
+
 "
 >
 <style>
@@ -111,8 +113,16 @@ style="
             <a
               style="background-color: #fff ;color: #22577a;"
               class="dropdown-item "
-              href="Merciado-Amusement-Park/About Us/aboutUs.html"
+              href="attraction.html"
               >Attractions/Zones</a
+            >
+          </li>
+          <li>
+            <a
+              style="background-color: #fff ;color: #22577a;"
+              class="dropdown-item "
+              href="disclaimer.html"
+              >Disclaimer</a
             >
           </li>
           <li>
@@ -124,6 +134,7 @@ style="
             >
           </li>
         
+
         </ul>
       </li>
     </ul>
@@ -231,7 +242,7 @@ style="
             <h3>Season Pass</h3>
             <p>Enjoy unlimited access to the park all year round!</p>
             <p class="price">$120/year</p>
-            <a href="#" class="btn"  onclick="ShowAlert()">Buy Now</a>
+            <a href="#" class="btn button-light  onclick="ShowAlert()">Buy Now</a>
           </div>
           <div class="option">
             <img
@@ -244,7 +255,7 @@ style="
               Great for families! Special discounts for groups of 4 or more.
             </p>
             <p class="price">$300/year</p>
-            <a href="#" class="btn"  onclick="ShowAlert()">Buy Now</a>
+            <a href="#" class="btn button-light"  onclick="ShowAlert()">Buy Now</a>
           </div>
           <div class="option">
             <img
@@ -255,7 +266,7 @@ style="
             <h3>VIP Membership</h3>
             <p>Get VIP access with priority entry, free parking, and more!</p>
             <p class="price">$500/year</p>
-            <a href="#" class="btn"  onclick="ShowAlert()">Buy Now</a>
+            <a href="#" class="btn button-light"  onclick="ShowAlert()">Buy Now</a>
           </div>
         </div>
 
@@ -321,7 +332,7 @@ style="
     </section>
 
     <!-- Short img gallery -->
-    <section class="photo-gallery mt-5">
+    <section class="photo-gallery">
       <h2>Our Park in Pictures</h2>
       <div class="gallery">
         <img src="HomePageImages/Ride1.jpg" alt="Ride 1" class="gallery-item" />
@@ -346,7 +357,7 @@ style="
     </section>
 
     <!-- Newsletter Subscription Section -->
-    <section class="newsletter mt-5">
+    <section class="newsletter">
       <div class="container">
         <h2>Stay Updated</h2>
         <p>
@@ -471,16 +482,7 @@ style="
       </div>
     </section>
 
-    <!-- Call to Action -->
-    <section class="cta my-5">
-      <div class="cta-content">
-        <h2>Join Us Today!</h2>
-        <p>Get the latest news, exclusive deals, and more.</p>
-        <a href="#newsletter" class="cta-button button-accent"
-          >Sign Up for Exclusive Deals</a
-        >
-      </div>
-    </section>
+ 
     <!-- Tell Us Your Favorite Ride -->
     <section
       class="survey my-5 text-center"
@@ -523,7 +525,7 @@ style="
     </section>
 
     <section
-      class="park-history my-5 text-center"
+      class="park-history mt-5 text-center"
       style="
         background-color: #38a3a5;
         color: white;
@@ -548,71 +550,7 @@ style="
         </li>
       </ul>
     </section>
-    <!-- Park Rules -->
-    <section
-      class="park-rules text-center mt-5"
-      style="background-color: #57cc99; color: white; padding: 40px"
-    >
-      <h2><b>Park Rules</b></h2>
-
-      <div class="rules-container">
-        <div class="rule-item" onclick="toggleRule(this)">
-          <h4>🚫 No outside food or drink allowed inside the park.</h4>
-          <p class="rule-details">
-            For the safety and enjoyment of all guests, we ask that you refrain
-            from bringing in outside food or beverages. We have plenty of
-            delicious options inside!
-          </p>
-        </div>
-
-        <div class="rule-item" onclick="toggleRule(this)">
-          <h4>🚭 Smoking is prohibited in all public areas.</h4>
-          <p class="rule-details">
-            We strive to maintain a clean and healthy environment. Smoking is
-            only allowed in designated areas. Please look for the signs around
-            the park.
-          </p>
-        </div>
-
-        <div class="rule-item" onclick="toggleRule(this)">
-          <h4>
-            🐾 Pets are not allowed in the park, except for service animals.
-          </h4>
-          <p class="rule-details">
-            To ensure the comfort of all our guests, pets are not allowed.
-            Service animals are welcome, and we’re happy to provide assistance
-            if needed!
-          </p>
-        </div>
-
-        <div class="rule-item" onclick="toggleRule(this)">
-          <h4>
-            👶 Guests under the age of 12 must be accompanied by an adult.
-          </h4>
-          <p class="rule-details">
-            For safety reasons, children under 12 years old must be accompanied
-            by an adult. Please ensure your little ones are always with a
-            guardian.
-          </p>
-        </div>
-
-        <div class="rule-item" onclick="toggleRule(this)">
-          <h4>
-            🙏 Please be respectful of other guests and staff members at all
-            times.
-          </h4>
-          <p class="rule-details">
-            We want everyone to have a fun and safe experience, so we kindly ask
-            that you show respect to fellow park-goers and staff at all times.
-          </p>
-        </div>
-      </div>
-
-      <!-- Acknowledgement Modal -->
-      <button class="cta-button" onclick="acknowledgeRules()">
-        I Acknowledge the Park Rules
-      </button>
-    </section>
+   
     <!-- Footer -->
     <footer style="background-color: #22577a; color: white; padding: 40px 20px">
       <div class="container text-center">
