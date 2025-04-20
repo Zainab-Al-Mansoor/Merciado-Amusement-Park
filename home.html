@@ -3,14 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Merciado Amusement Park</title>
+    <title > Merciado Amusement Park</title>
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
+
     />
+
     <!-- icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 
@@ -25,6 +27,7 @@
 #80ED99
 #C7F9CC 
     -->
+
   <!-- Navbar -->
 <nav
 class="navbar navbar-expand-lg navbar-light"
@@ -153,47 +156,51 @@ style="
 <section class="parallax-section">
   <div class="parallax-content text-center text-white">
     <h2>Welcome to Merciado Amusement Park</h2>
-    <p>Stroll through lush landscapes, peaceful lakes, and adventure-filled paths.</p>
+    <p>Experience endless thrills and unforgettable fun at Merciado Amusement Park </p>
   </div>
 </section>
 
+<!-- Hero Section -->
+<div class="my-con container d-flex align-items-center" style="height: 70vh;">
+  <div class="row w-100">
+    <div class="col-md-6 d-flex flex-column justify-content-center text-center text-md-start">
+      <h1 class="mb-4">A World of Excitement, Wonder, and Unforgettable Moments</h1>
+      <p class="lead">From heart-racing rides to family-friendly attractions, Merciado Park is your ultimate escape into fun and adventure. Start your journey today.</p>
+  <button class="mybtn button-primary  align-self-center mb-4"><a href="Ticket.html">Buy Tickets</a></button>
+  
+    </div>
+    <div  class="col-md-6">
+      <video autoplay muted loop playsinline  src="parkvideo.mp4" class="img-fluid rounded shadow"></video>
+    </div>
+  </div>
+</div>
 
 <style>
-  .parallax-section {
-  background-image: url('HomePageImages/park.jpg'); /* Replace with your scenic image */
-  height: 70vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.mybtn a{
+text-decoration: none;
+color: #fff;
 }
 
-.parallax-content {
-  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent overlay */
-  padding: 40px;
-  border-radius: 12px;
-  max-width: 80%;
-}
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #22577a;
+  }
 
-.parallax-content h2 {
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #fff;
-}
+  p.lead {
+    font-size: 1.2rem;
+    color: #22577a;
+  }
 
-.parallax-content p {
-  font-size: 1.2rem;
-  color: #e0f7fa;
-}
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
 
-.parallax-info-section {
-  background-color: #f0fff4;
-}
-
+    .my-con{
+      height: 40vh;
+    }
+  }
 </style>
 
 
@@ -320,16 +327,7 @@ style="
       </div>
     </section>
 
-    <!-- Hero Section -->
-    <section class="hero">
-      <div class="hero-content">
-        <h1>Experience the Thrill at Merciado Amusement Park!</h1>
-        <p>
-          Your ultimate destination for adventure, fun, and family memories.
-        </p>
-        <a href="Ticket.html" class="cta-button button-light">Buy Tickets</a>
-      </div>
-    </section>
+    
 
     <!-- Short img gallery -->
     <section class="photo-gallery">
@@ -355,6 +353,47 @@ style="
         />
       </div>
     </section>
+      <!-- Tell Us Your Favorite Ride -->
+      <section
+      class="survey my-5 text-center"
+      style="
+        background-color: #57cc99;
+        color: white;
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      "
+    >
+      <h2>Tell Us Your Favorite Ride:</h2>
+      <form id="favoriteRideForm">
+        <label>
+          <input type="radio" name="ride" value="SuperCoaster" />
+          SuperCoaster </label
+        ><br />
+        <label>
+          <input type="radio" name="ride" value="PirateShip" /> Pirate Ship </label
+        ><br />
+        <label>
+          <input type="radio" name="ride" value="MagicWheel" /> Magic Wheel </label
+        ><br />
+        <p
+          id="confirmationMessage"
+          style="display: none; color: #22577a; margin-top: 20px"
+        >
+         ! Thank you for your vote! Your favorite ride is:
+          
+          <span id="selectedRide"></span>
+        </p>
+        <button
+          type="submit"
+          class="cta-button button-primary"
+          style="margin-top: 20px"
+        >
+          Submit
+        </button>
+      </form>
+    </section>
+
 
     <!-- Newsletter Subscription Section -->
     <section class="newsletter">
@@ -435,8 +474,7 @@ style="
     <section
       class="park-structure text-center"
       style="
-        border-radius: 8px;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      
         background-color: #57cc99;
         color: white;
         padding: 40px;
@@ -483,55 +521,14 @@ style="
     </section>
 
  
-    <!-- Tell Us Your Favorite Ride -->
+  
     <section
-      class="survey my-5 text-center"
-      style="
-        background-color: #57cc99;
-        color: white;
-        padding: 40px;
-        border-radius: 8px;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-      "
-    >
-      <h2>Tell Us Your Favorite Ride:</h2>
-      <form id="favoriteRideForm">
-        <label>
-          <input type="radio" name="ride" value="SuperCoaster" />
-          SuperCoaster </label
-        ><br />
-        <label>
-          <input type="radio" name="ride" value="PirateShip" /> Pirate Ship </label
-        ><br />
-        <label>
-          <input type="radio" name="ride" value="MagicWheel" /> Magic Wheel </label
-        ><br />
-        <p
-          id="confirmationMessage"
-          style="display: none; color: #22577a; margin-top: 20px"
-        >
-         ! Thank you for your vote! Your favorite ride is:
-          
-          <span id="selectedRide"></span>
-        </p>
-        <button
-          type="submit"
-          class="cta-button button-primary"
-          style="margin-top: 20px"
-        >
-          Submit
-        </button>
-      </form>
-    </section>
-
-    <section
-      class="park-history mt-5 text-center"
+      class="park-history text-center"
       style="
         background-color: #38a3a5;
         color: white;
         padding: 40px;
-        border-radius: 8px;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+       
       "
     >
       <h2 class="parkHeadingTwo"><b>Park History</b></h2>

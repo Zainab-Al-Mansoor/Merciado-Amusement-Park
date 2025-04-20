@@ -1,5 +1,4 @@
 
-
 footer {
     position: static
     ;
@@ -7,6 +6,7 @@ footer {
     width: 100%;
   }
   /* for all anchor tag */
-a{
+  footer a{
     text-decoration: none;
 }
+

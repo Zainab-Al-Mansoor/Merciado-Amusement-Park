@@ -16,12 +16,47 @@ a{
     text-decoration: none;
 }
 
+  .parallax-section {
+  background-image: url('HomePageImages/park.jpg'); /* Replace with your scenic image */
+  height: 70vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parallax-content {
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent overlay */
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 80%;
+}
+
+.parallax-content h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.parallax-content p {
+  font-size: 1.2rem;
+  color: #e0f7fa;
+}
+
+.parallax-info-section {
+  background-color: #f0fff4;
+}
+
+
 
 
 
 /* Featured Attractions */
 .featured-attractions {
-    padding: 50px 20px;
     text-align: center;
     background-color: #ffffff;
 }
@@ -276,12 +311,7 @@ flex-direction: column;
     background-color: #80ED99;
     color: white;
     padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    /* margin: 20px auto; */
     text-align: center;
-    border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* Heading Style */
@@ -374,25 +404,6 @@ padding-bottom: 30px;    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         width: 100%;
     }
 }
-/* Hero Section */
-.hero{
-    background-color: #38A3A5;
-    color: #ffffff;
-    text-align: center;
-    padding: 100px 20px;
-
-}
-
-.hero h1 {
-    font-size: 3em;
-    margin-bottom: 20px;
-}
-
-.hero p {
-    font-size: 1.5em;
-    margin-bottom: 30px;
-}
-
 
 .membership {
     background-color: #22577A;
@@ -692,18 +703,7 @@ button {
 
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
-    .hero {
-        padding: 60px 20px;
-    }
-
-    .hero h1 {
-        font-size: 2.5em;
-    }
-
-    .hero p {
-        font-size: 1.3em;
-    }
-
+    
     .featured-attractions h2,
     .special-offers h2,
     .testimonials h2 {
@@ -726,18 +726,7 @@ button {
 }
 
 @media (max-width: 576px) {
-    .hero {
-        padding: 50px 15px;
-    }
-
-    .hero h1 {
-        font-size: 2em;
-    }
-
-    .hero p {
-        font-size: 1.2em;
-    }
-
+    
     .cta {
         padding: 30px 15px;
     }
@@ -764,3 +753,6 @@ footer {
     width: 100%;
   }
   
+
+
+
