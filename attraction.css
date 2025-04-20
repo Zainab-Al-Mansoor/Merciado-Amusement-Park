@@ -61,7 +61,7 @@ background-color: #f0fff4;
   padding: 15px 20px;
   font-size: 1.2rem;
   font-weight: bold;
-  color: #2B5555;
+  color: #38A3A5;
   list-style: none;
   position: relative;
 }
@@ -180,6 +180,111 @@ background-color: #f0fff4;
     transform: translateY(0);
   }
 }
+  .leaderboard-section {
+    background-color: #C7F9CC;
+    padding: 40px;
+    text-align: center;
+  }
+
+  .leaderboard-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #38A3A5;
+  }
+
+  .challenge-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .challenge-item {
+    background-color: #80ED99;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+
+
+
+  .challenge-item .challenge-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #38A3A5;
+  }
+
+  .challenge-item .challenge-description {
+    font-size: 1rem;
+    color: #2B5555;
+    max-width: 70%;
+    text-align: left;
+  }
+
+  .challenge-item .user-rank {
+    background-color: #38A3A5;
+    padding: 8px 15px;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+
+  .user-rank.first-place {
+    background-color: #FFD700;
+  }
+
+  .user-rank.second-place {
+    background-color: #C0C0C0;
+  }
+
+  .user-rank.third-place {
+    background-color: #CD7F32;
+  }
+
+  .challenge-item .progress-bar {
+    width: 100%;
+    background-color: #E0F8E0;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 12px;
+    position: relative;
+  }
+
+  .challenge-item .progress-bar span {
+    display: block;
+    height: 100%;
+    width: 60%; /* This can be adjusted based on user progress */
+    background-color: #57CC99;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+  }
+
+  .cta-btn {
+    background-color: #57CC99;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+
+  .cta-btn:hover {
+    background-color: #80ED99;
+  }
+
 
 
 /* sec of park */
+footer a{
+  text-decoration: none;
+}
