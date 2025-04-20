@@ -50,7 +50,84 @@ a{
 .parallax-info-section {
   background-color: #f0fff4;
 }
+ 
 
+
+/* hero section */
+.mybtn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Button Styling */
+.mybtn {
+  padding: 0.75rem 1.5rem;
+  background-color: #22577a;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.mybtn:hover {
+  background-color: #1b4462;
+}
+
+/* Heading & Text */
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #22577a;
+}
+
+p.lead {
+  font-size: 1.2rem;
+  color: #22577a;
+}
+
+.hero-video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Medium Devices */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  p.lead {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .mybtn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .mybtn a {
+    display: block;
+    width: 100%;
+  }
+}
+
+/* Small Devices */
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  p.lead {
+    font-size: 0.95rem;
+  }
+
+  .hero-video {
+    margin-top: 1rem;
+  }
+}
 
 
 
@@ -76,7 +153,7 @@ a{
 .attraction-card {
     background-color: #57CC99;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 1px;
     width: 30%;
     text-align: center;
     margin-bottom: 20px;

@@ -12,31 +12,6 @@ body {
   
   
   
-    .navbar-light .navbar-nav .nav-link {
-      color: #22577a;
-    }
-  
-    .navbar-light .navbar-brand {
-      color: #22577a;
-    }
-    .navbar-light .navbar-brand:hover {
-      color: #3e7ba4;
-    }
-  
-    .navbar-light .navbar-nav .nav-link.active,
-    .navbar-light .navbar-nav .show > .nav-link {
-      color: #22577a;
-    }
-  
-    .navbar-brand img {
-      width: 80px;
-      max-height: 60px; 
-    }
-  
-  
-  
-  
-  
   
   
   a{

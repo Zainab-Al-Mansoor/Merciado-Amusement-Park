@@ -47,22 +47,28 @@
     .navbar-light .navbar-nav .show > .nav-link {
       color: #22577a;
     }  .navbar-light .navbar-brand:hover {
-      color: #3e7ba4;
+      color: #22577a;
     }
   
   
     .navbar-brand img {
-      width: 80px;
+      width: 60px;
       max-height: 60px; 
     }
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      width: 100%;
+      padding-right: 2px;
+      padding-left:2px;
+   
+  }
   </style>
   
   <div class="container-fluid">
     <!-- Logo -->
-    <a class="navbar-brand" href="#">
-      <img src="HomePageImages/logo1.png" alt="">
+    <a class="navbar-brand h-70" href="#">
+      <img src="Flux_Dev_A_vibrant_grand_entrance_parade_at_a_Create_a_modern__3-removebg-preview.png" alt="">
     </a>
-    <a class="navbar-brand fs-6" href="#"><b>Merciado Amusement Park</b></a>
+    <a class="navbar-brand fs-4" href="#"><b>Merciado Amusement Park</b></a>
   
     <!-- Navbar Toggle Button for mobile responsiveness -->
     <button
@@ -146,8 +152,6 @@
 
 
 
-
-
 <section class="parallax-section">
     <div class="parallax-content text-center text-white">
       <h2>Attractions of Merciado Amusement Park</h2>
@@ -159,13 +163,12 @@
   
 
   <!-- 1st famous ride  -->
-
-
-  <section class="ride-listings my-5">
+  <h1 class="my-4" style="color: #22577a;  text-align: center; font-weight: 700;">Famous Rides </h1>
+  <section class="ride-listings mb-5">
 
     <div class="ride-item">
       <details>
-        <summary class="ride-summary">Sky Swirl ⬇️</summary>
+        <summary class="ride-summary">Sky Swirl ⬇️ <span class="fs-6 text-danger">Open</span></summary>
         <div class="ride-content">
           <img src="HomePageImages/Sky Swirl Ride.jpg" alt="Sky Swirl Ride">
           <div class="ride-info">
@@ -190,7 +193,7 @@
 
     <div class="ride-item">
       <details>
-        <summary class="ride-summary">rollercoaster ⬇️</summary>
+        <summary class="ride-summary">rollercoaster ⬇️ <span class="fs-6 text-danger">Open</span></summary>
         <div class="ride-content">
           <img src="HomePageImages/Ride2.avif" alt=rollercoasterky Swirl Ride">
           <div class="ride-info">
@@ -213,110 +216,7 @@
 
 <!-- section of the park -->
  
-<style>
-  .leaderboard-section {
-    background-color: #C7F9CC;
-    padding: 40px;
-    text-align: center;
-  }
 
-  .leaderboard-section h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: #38A3A5;
-  }
-
-  .challenge-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  .challenge-item {
-    background-color: #80ED99;
-    border-radius: 8px;
-    margin-bottom: 15px;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease;
-  }
-
-
-
-  .challenge-item .challenge-name {
-    font-size: 1.2rem;
-    font-weight: bold;
-  }
-
-  .challenge-item .challenge-description {
-    font-size: 1rem;
-    color: #2B5555;
-    max-width: 70%;
-    text-align: left;
-  }
-
-  .challenge-item .user-rank {
-    background-color: #38A3A5;
-    padding: 8px 15px;
-    color: white;
-    border-radius: 20px;
-    font-weight: bold;
-    font-size: 1.1rem;
-  }
-
-  .user-rank.first-place {
-    background-color: #FFD700;
-  }
-
-  .user-rank.second-place {
-    background-color: #C0C0C0;
-  }
-
-  .user-rank.third-place {
-    background-color: #CD7F32;
-  }
-
-  .challenge-item .progress-bar {
-    width: 100%;
-    background-color: #E0F8E0;
-    border-radius: 5px;
-    margin-top: 10px;
-    height: 12px;
-    position: relative;
-  }
-
-  .challenge-item .progress-bar span {
-    display: block;
-    height: 100%;
-    width: 60%; /* This can be adjusted based on user progress */
-    background-color: #57CC99;
-    border-radius: 5px;
-    position: absolute;
-    left: 0;
-  }
-
-  .cta-btn {
-    background-color: #57CC99;
-    padding: 10px 20px;
-    color: white;
-    font-size: 1.1rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin-top: 20px;
-  }
-
-  .cta-btn:hover {
-    background-color: #80ED99;
-  }
-</style>
-</head>
-<body>
 
 <section class="leaderboard-section">
   <h2>Park Challenges Leaderboard</h2>
