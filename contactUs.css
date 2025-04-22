@@ -9,15 +9,17 @@ body {
     width: 80%;
     margin: 0 auto;
     padding: 20px;
+    
 }
 
 h1 {
     text-align: center;
-    color: #57CC99;
+    color: #000000;
 }
 
 .contact-form {
     background-color: #fbf4f4;
+    /* opacity: 0.4; */
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -26,7 +28,7 @@ h1 {
 .contact-form label {
     display: block;
     margin: 10px 0 5px;
-    color: #57CC99;
+    color: #000000;
     font-weight: 600;
 }
 
@@ -42,7 +44,7 @@ h1 {
 
 .contact-form input:active,
 .contact-form textarea:active {
-    border: 2px solid #86e0b9;
+    border: 2px solid #000000;
 }
 
 .contact-form input:hover,
@@ -92,4 +94,8 @@ footer {
 
 footer a { 
     text-decoration: none;
+}
+body{
+    background-image: url(https://media.licdn.com/dms/image/v2/D4D22AQFltlEgO3c5sw/feedshare-shrink_800/feedshare-shrink_800/0/1713794221962?e=2147483647&v=beta&t=r-E2m1s_t9V9d8lGR-tgHqrFXCwHydmVX8138CetsMU);
+    background-size: cover;
 }
