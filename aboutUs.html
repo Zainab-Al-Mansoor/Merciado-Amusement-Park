@@ -144,44 +144,95 @@
         </div>
       </div>
       </nav>
-    <h1 class="main">About us </h1>
-    <div class="container">
-        <h1> Welcome to Merciado Amusement Park – Where the Fun Never Ends!</h1>
-        <p id="para 1">
-            At Merciado Amusement Park, we believe in the magic of laughter, thrills, and unforgettable memories.
-             Nestled in the heart of the community, Merciado is your go-to destination for fun, excitement, and adventure for the whole family.
-
-            Whether you're a thrill-seeker craving our world-class roller coasters or a little one ready to explore whimsical rides and games,
-             we have something for everyone. From the moment you walk through our gates, you're stepping into a world of wonder filled with vibrant attractions, delicious treats, and smiling faces.
-        </p>
+       <!--slider-->
+       <div class="container">
+       <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="HomePageImages/ferris-wheel.jpg" class="d-block w-100" height="700px" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="HomePageImages/ethan-hoover-6pP4QXefjkg-unsplash.jpg" class="d-block w-100"  height="700px" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="HomePageImages/liz-sanchez-vegas-95RpzJy8ry4-unsplash.jpg" class="d-block w-100" height="700px" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div>
-    <div class="our story">
-        <h1>Our story</h1>
-        <p id="para 2">
-            Founded with a dream to bring joy to every corner of the city, Merciado Amusement Park opened its doors
-             with a simple mission: create a place where people of all ages can escape the ordinary and experience
-              pure happiness. Over the years, we've grown into a beloved local treasure, welcoming thousands of guests each season.
-
-              We pride ourselves on our commitment to safety, cleanliness, and exceptional guest service. Every ride, every
-               show, and every smile is powered by our passionate team who make sure each visit is better than the last.
-        </p>
+    <!--acoordion-->
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Accordion Item #1
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Accordion Item #2
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Accordion Item #3
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="rides">
-        <h1>What we offer</h1>
-        <p id="para 3">
-            🎢 Thrilling Rides – From adrenaline-pumping coasters to family-friendly attractions. <br>
-            🎠 Kids’ Zone – Safe, colorful fun for the youngest adventurers. <br>
-            🍿 Tasty Eats – Classic carnival treats and delicious bites across the park. <br>
-            🎟️ Live Entertainment – Music, magic, parades, and seasonal events. <br>
-            🎉 Private Events & Group Packages – Birthdays, reunions, or team outings made extra special. <br>
-        </p>
-    </div>
-    <div class="family">
-        <h1>Join the Merciado Family</h1>
-        <p id="para 4">Merciado is more than an amusement park – it’s a place where memories are made, friendships are formed,
-             and every visit is a new adventure. Come visit us and see why generations keep coming back to Merciado for fun, joy, and just a little bit of magic. <br>
-             We can’t wait to welcome you!
-            </p>
+    <!--cards-->
+    <div class="card-group">
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
     </div>
        <!-- Footer -->
        <footer style="background-color: #22577a; color: white; padding: 40px 20px">
