@@ -1,15 +1,14 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
 }
 
 .container {
-    width: 80%;
+    width: 40%; imp
     margin: 0 auto;
     padding: 20px;
-    
 }
 
 h1 {
@@ -19,7 +18,7 @@ h1 {
 
 .contact-form {
     background-color: #fbf4f4;
-    /* opacity: 0.4; */
+    opacity: 0.4;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -44,7 +43,7 @@ h1 {
 
 .contact-form input:active,
 .contact-form textarea:active {
-    border: 2px solid #000000;
+    border: 4px solid #000000;
 }
 
 .contact-form input:hover,
@@ -96,6 +95,9 @@ footer a {
     text-decoration: none;
 }
 body{
-    background-image: url(https://media.licdn.com/dms/image/v2/D4D22AQFltlEgO3c5sw/feedshare-shrink_800/feedshare-shrink_800/0/1713794221962?e=2147483647&v=beta&t=r-E2m1s_t9V9d8lGR-tgHqrFXCwHydmVX8138CetsMU);
+    background-image: url(https://www.amghotels.pk/assets/img/excrusion/WILD%20WADI%20WATER%20PARK.jpg);
     background-size: cover;
+}
+.map{
+    justify-content: center;
 }
