@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+    <div class="full-img" id="fullImgBox">
+        <img src="HomePageImages/Adventure Zone.jpg" id="fullImg">
+        <span onclick="closeFullImg()">X</span>
+    </div>
+
+    <div class="img-gallery">
+        <img src="HomePageImages/Adventure Zone.jpg" onclick="openFullImg()" >
+        <img src="HomePageImages/Food Court.jpg" onclick="openFullImg()" >
+        <img src="HomePageImages/spring-festival.jpg" onclick="openFullImg()" >
+        <img src="HomePageImages/supercoster.jpg" onclick="openFullImg()" >
+        <img src="HomePageImages/sky rolar coster.jpg" onclick="openFullImg()" >
+        <img src="HomePageImages/grandentrance.jpg" onclick="openFullImg()" >
+        <img src="HomePageImages/magical night.webp" onclick="openFullImg()" >
+        <img src="HomePageImages/ferris-wheel.jpg" onclick="openFullImg()" >
+
+    </div>
+    
+
+    <script>
+  var fullImgBox = document.getElementById("fullImgBox");
+  var fullImg = document.getElementById("fullImg");
+  
+  function openFullImg(){
+    fullImgBox .style.display = "flex"
+
+  }
+
+
+
+    </script>
+</body>
+</html>
