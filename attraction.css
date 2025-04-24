@@ -307,23 +307,7 @@ body {
   text-transform: capitalize;
 }
 
-.hero {
-  background-image: url(https://cdn.leonardo.ai/users/6f70f82d-48d9-4e51-bfce-a20d6a0f7e41/generations/72681a16-325d-4909-b5c3-897de452da60/segments/1:4:1/Flux_Dev_A_vibrant_and_bustling_scene_of_Merciado_Park_a_popul_0.jpg);
-  height: 800px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-}
 
-#head1 {
-  font-size: 30px;
-  color: black;
-}
 
 #slider {
   display: flex;
