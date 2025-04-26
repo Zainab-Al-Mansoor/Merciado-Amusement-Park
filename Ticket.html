@@ -25,131 +25,92 @@
 #C7F9CC 
     -->
   <!-- Navbar -->
-  <nav
-  class="navbar navbar-expand-lg navbar-light"
-  style="
-    background-color: #22577a;
-    box-shadow: 0 1px 4px rgba(34, 87, 122, 0.3);  
-  "
-  >
-  <style>
-    .navbar-light .navbar-nav .nav-link {
-      color: #fff;
-    }
+  <nav class="navbar navbar-expand-lg navbar-dark text-light" style="background-color: #22577a; box-shadow: 0 1px 4px rgba(34, 87, 122, 0.3);">
+    <style>
+      .navbar-light .navbar-nav .nav-link {
+        color: #fff;
+      }
   
-    .navbar-light .navbar-brand {
-      color: #fff;
-    }
+      .navbar-light .navbar-brand {
+        color: #fff;
+      }
   
-    .navbar-light .navbar-nav .nav-link.active,
-    .navbar-light .navbar-nav .show > .nav-link {
-      color: #fff;
-    }  .navbar-light .navbar-brand:hover {
-      color: #fff;
-    }
+      .navbar-light .navbar-nav .nav-link.active,
+      .navbar-light .navbar-nav .show > .nav-link {
+        color: #fff;
+      }
   
+      .navbar-light .navbar-brand:hover {
+        color: #fff;
+      }
   
-    /* .navbar-brand img {
-      width: 90px;
-    } */
-    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-      width: 100%;
-      padding-right: 25px;
-      padding-left:25px;
-   
-  }
-  </style>
+      .container, .container-fluid {
+        width: 100%;
+        padding-right: 25px;
+        padding-left: 25px;
+      }
   
-  <div class="container-fluid">
-    <!-- Logo -->
-    <a class="navbar-brand h-100" href="#">
-      <img  style="width: 60px;" src="HomePageImages/MERCIADO LOGO.png" alt="">
-    </a>
+      .nav-item a:hover {
+        background-color: #80ed99;
+        border-radius: 20px;
+        transition: background-color 0.3s ease, border-radius 0.3s ease;
+      }
   
-    <!-- Navbar Toggle Button for mobile responsiveness -->
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarNav"
-      aria-controls="navbarNav"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      /* Optional: Custom styling for the dropdown menu */
+      .dropdown-menu {
+        background-color: #fff;
+        color: #22577a;
+      }
   
-    <!-- Navbar Links -->
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="home.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="aboutUs.html">About Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="Ticket.html">Tickets</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="Entertaintment.html">Entertainments</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a
-            class="nav-link active dropdown-toggle"
-            href="#"
-            id="navbarDropdown"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            More
-          </a>
-          <ul
-            class="dropdown-menu"
-            style="background-color: #fff ;color: #22577a;"
-            aria-labelledby="navbarDropdown"
-          >
-          <li>
-            <a
-              style="background-color: #fff ;color: #22577a;"
-              class="dropdown-item "
-              href="gallery.html"
-              >Gallery</a
-            >
+      .dropdown-item:hover {
+        background-color: #80ed99;
+        color: #22577a;
+      }
+    </style>
+  
+    <div class="container-fluid">
+      <!-- Logo -->
+      <a class="navbar-brand h-100" href="#">
+        <img style="width: 60px;" src="HomePageImages/MERCIADO LOGO.png" alt="Logo">
+      </a>
+  
+      <!-- Navbar Toggle Button for mobile responsiveness -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <!-- Navbar Links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
           </li>
-            <li>
-              <a
-                style="background-color: #fff ;color: #22577a;"
-                class="dropdown-item "
-                href="attraction.html"
-                >Attractions/Zones</a
-              >
-            </li>
-            <li>
-              <a
-                style="background-color: #fff ;color: #22577a;"
-                class="dropdown-item "
-                href="disclaimer.html"
-                >Disclaimer</a
-              >
-            </li>
-            <li>
-              <a
-                style="background-color: #fff ; color: #22577a;"
-                class="dropdown-item "
-                href="contactUs.html"
-                >Contact Us</a
-              >
-            </li>
-          
-  
-          </ul>
-        </li>
-      </ul>
-  
+          <li class="nav-item">
+            <a class="nav-link active" href="aboutUs.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="Ticket.html">Tickets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="Entertaintment.html">Entertainments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              More
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="resturant.html">Restaurant</a></li>
+              <li><a class="dropdown-item" href="attraction.html">Attractions/Zones</a></li>
+              <li><a class="dropdown-item" href="disclaimer.html">Disclaimer</a></li>
+              <li><a class="dropdown-item" href="contactUs.html">Contact Us</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
   </nav>
 
 <!-- alert -->
@@ -251,8 +212,7 @@ And clicks on &quot;Book Now&quot; -->
 
     <!-- Submit Button -->
     <div class="text-center mt-3">
-      <button type="submit"  onclick="ShowAlert()"class="btn button-light">Book Now</button>
-      
+      <button type="submit"  onclick="ShowAlert()"  class="btn button-light">Book Now</button>
     </div>
   </form>
 </div>
@@ -302,7 +262,9 @@ And clicks on &quot;Book Now&quot; -->
       function  ShowAlert(){
         ALertTicket.style.display="block"
         }
+        
      </script>
    
+
   </body>
 </html>

@@ -54,7 +54,7 @@ a{
  
 
 
-/* hero section */
+/* Button Styling */
 .mybtn a {
   text-decoration: none;
   color: #fff;
@@ -79,17 +79,36 @@ h1 {
   font-size: 2.5rem;
   font-weight: 700;
   color: #22577a;
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeInUp 1s ease-out forwards;
 }
 
 p.lead {
   font-size: 1.2rem;
   color: #22577a;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 1.2s ease-out forwards;
+  animation-delay: 0.3s; /* Delay the paragraph animation for a nice staggered effect */
 }
 
 .hero-video {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
+}
+
+/* Keyframes for Animation */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Medium Devices */
@@ -131,8 +150,6 @@ p.lead {
 }
 
 
-
-
 /* Featured Attractions */
 .featured-attractions {
     text-align: center;
@@ -155,9 +172,11 @@ p.lead {
     background-color: #57CC99;
     padding: 20px;
     border-radius: 1px;
+
     width: 30%;
     text-align: center;
     margin-bottom: 20px;
+
 }
 
 .attraction-card img {

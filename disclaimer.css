@@ -6,6 +6,7 @@ padding: 0px;
   color: #22577A;
 }
 
+
 .parallax-section {
   background-image: url('HomePageImages/disclamer.jpg'); /* Replace with your scenic image */
   height: 70vh;
@@ -43,3 +44,6 @@ padding: 0px;
 }
  
 
+footer a{
+  text-decoration: none;
+}
