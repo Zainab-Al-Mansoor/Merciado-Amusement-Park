@@ -21,3 +21,14 @@ footer {
     text-decoration: none;
 }
 
+.parallax-content {
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent overlay */
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 80%;
+}
+.carousel-item h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+}

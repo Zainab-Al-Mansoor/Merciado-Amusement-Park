@@ -6,22 +6,26 @@ body {
 }
 
 .container {
-    width: 40%; imp
+    width: 40%;
     margin: 0 auto;
     padding: 20px;
+   
 }
 
 h1 {
     text-align: center;
-    color: #000000;
+    color: #22577A;
 }
 
 .contact-form {
     background-color: #fbf4f4;
-    opacity: 0.4;
+    /* opacity: 0.4; */
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    background: transparent;
+
 }
 
 .contact-form label {
