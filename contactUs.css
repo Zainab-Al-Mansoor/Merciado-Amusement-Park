@@ -3,6 +3,7 @@ body {
     background-color: transparent;
     margin: 0;
     padding: 0;
+
 }
 
 .container {
@@ -23,7 +24,7 @@ h1 {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
     background: transparent;
 
 }
@@ -99,7 +100,8 @@ footer a {
     text-decoration: none;
 }
 body{
-    background-image: url(https://www.amghotels.pk/assets/img/excrusion/WILD%20WADI%20WATER%20PARK.jpg);
+    background-image: url(https://images.pexels.com/photos/1209978/pexels-photo-1209978.jpeg?cs=srgb&dl=pexels-galerieb-1209978.jpg&fm=jpg);
+
     background-size: cover;
 }
 .map{
