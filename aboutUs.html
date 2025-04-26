@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="aboutUs.css">
       <!-- add logo  -->
-      <link rel="icon" style="width: 100%; height: 100%;" type="image/png" href="Flux_Dev_A_vibrant_grand_entrance_parade_at_a_Create_a_modern__3-removebg-preview.png"> 
+      <link rel="icon" style="width: 100%; height: 100%;" type="image/png" href="HomePageImages/MERCIADO LOGO.png"> 
 
     
      <!-- Bootstrap CSS -->
@@ -25,47 +25,43 @@
       <nav
       class="navbar navbar-expand-lg navbar-light"
       style="
-        background-color: white;
-        box-shadow: 0 1px 4px rgba(34, 87, 122, 0.3);
-        border: 1px solid rgb(232, 232, 232);
-      
+        background-color: #22577a;
+        box-shadow: 0 1px 4px rgba(34, 87, 122, 0.3);  
       "
       >
       <style>
         .navbar-light .navbar-nav .nav-link {
-          color: #22577a;
+          color: #fff;
         }
       
         .navbar-light .navbar-brand {
-          color: #22577a;
+          color: #fff;
         }
       
         .navbar-light .navbar-nav .nav-link.active,
         .navbar-light .navbar-nav .show > .nav-link {
-          color: #22577a;
+          color: #fff;
         }  .navbar-light .navbar-brand:hover {
-          color: #22577a;
+          color: #fff;
         }
       
       
-        .navbar-brand img {
-          width: 60px;
-          max-height: 60px; 
-        }
+        /* .navbar-brand img {
+          width: 90px;
+        } */
         .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
           width: 100%;
-          padding-right: 2px;
-          padding-left:2px;
+          padding-right: 25px;
+          padding-left:25px;
        
       }
       </style>
       
       <div class="container-fluid">
         <!-- Logo -->
-        <a class="navbar-brand h-70" href="#">
-          <img src="HomePageImages/logo1.png" alt="">
+        <a class="navbar-brand h-100" href="#">
+          <img  style="width: 60px;" src="HomePageImages/MERCIADO LOGO.png" alt="">
         </a>
-        <a class="navbar-brand fs-4" href="#"><b>Merciado Amusement Park</b></a>
       
         <!-- Navbar Toggle Button for mobile responsiveness -->
         <button
@@ -111,6 +107,14 @@
                 style="background-color: #fff ;color: #22577a;"
                 aria-labelledby="navbarDropdown"
               >
+              <li>
+                <a
+                  style="background-color: #fff ;color: #22577a;"
+                  class="dropdown-item "
+                  href="gallery.html"
+                  >Gallery</a
+                >
+              </li>
                 <li>
                   <a
                     style="background-color: #fff ;color: #22577a;"
@@ -144,8 +148,9 @@
         </div>
       </div>
       </nav>
+    
     <!--slider-->
-<div class="container mb-5">
+<div class=" mb-5">
   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <div class="carousel-inner">
 
@@ -184,7 +189,7 @@
 </div>
 
    <!-- Accordion for Merciado Amusement Park -->
-<div class="container mb-5">
+<div class=" mb-5">
   <div class="accordion" id="accordionExample">
     
     <!-- Attractions Section -->
@@ -235,36 +240,38 @@
     <!--cards-->
     <div class="container card-group mb-5">
       <div class="card">
-        <img src="HomePageImages/attractionpark.webp" height="290px" class="card-img-top" alt="...">
+        <img src="HomePageImages/attractionpark.webp" height="290px" class="card-img-top" alt="Amusement Park Rides">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <h5 class="card-title">Thrilling Attractions</h5>
+          <p class="card-text">Merciado Amusement Park offers heart-pounding rides and family-friendly attractions designed to entertain visitors of all ages.</p>
           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
         </div>
       </div>
       <div class="card">
-        <img src="HomePageImages/Adventure Zone.jpg" height="290px" class="card-img-top" alt="...">
+        <img src="HomePageImages/Adventure Zone.jpg" height="290px" class="card-img-top" alt="Adventure Zone">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <h5 class="card-title">Adventure Zone</h5>
+          <p class="card-text">Step into our Adventure Zone for climbing walls, zip lines, and obstacle courses that bring out the adventurer in you.</p>
           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
         </div>
       </div>
       <div class="card">
-        <img src="HomePageImages/Food Court.jpg" height="290px" class="card-img-top" alt="...">
+        <img src="HomePageImages/Food Court.jpg" height="290px" class="card-img-top" alt="Food Court">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          <h5 class="card-title">Delicious Dining</h5>
+          <p class="card-text">Refuel with a variety of mouth-watering cuisines at our food court, offering everything from snacks to full meals.</p>
           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
         </div>
       </div>
     </div>
+    
        <!-- Footer -->
        <footer style="background-color: #22577a; color: white; padding: 40px 20px">
         <div class="container text-center">
           <div class="row">
             <div class="col-md-4 mb-3">
-              <h5>Merciado Amusement Park</h5>
+              <!-- Logo Section -->
+              <img src="HomePageImages/MERCIADO LOGO.png" alt="Amusement Park Logo" style="max-width: 50%; height: 100px;">
               <p>Your destination for thrill, fun, and excitement since 1980.</p>
             </div>
             <div class="col-md-4 mb-3">
@@ -280,21 +287,13 @@
             </div>
             <div class="col-md-4 mb-3">
               <h5>Connect With Us</h5>
-              <a href="https://facebook.com/yourprofile" class="me-2" style="color: #80ed99"
-                ><i class="bi bi-facebook"></i> Facebook</a
-              ><br />
-              <a href="https://instagram.com/yourprofile"" class="me-2" style="color: #80ed99"
-                ><i class="bi bi-instagram"></i> Instagram</a
-              ><br />
-              <a href="https://twitter.com/yourprofile" class="me-2" style="color: #80ed99"
-                ><i class="bi bi-twitter"></i> Twitter</a
-              >
+              <a href="https://facebook.com/yourprofile" class="me-2" style="color: #80ed99"><i class="bi bi-facebook"></i> Facebook</a><br />
+              <a href="https://instagram.com/yourprofile" class="me-2" style="color: #80ed99"><i class="bi bi-instagram"></i> Instagram</a><br />
+              <a href="https://twitter.com/yourprofile" class="me-2" style="color: #80ed99"><i class="bi bi-twitter"></i> Twitter</a>
             </div>
           </div>
           <hr style="border-color: #80ed99" />
-          <p class="mb-0">
-            &copy; 2025 Merciado Amusement Park. All rights reserved.
-          </p>
+          <p class="mb-0">&copy; 2025 Merciado Amusement Park. All rights reserved.</p>
         </div>
       </footer>
 

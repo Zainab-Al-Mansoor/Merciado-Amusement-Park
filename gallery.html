@@ -3,28 +3,217 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="gallery.css">
-</head>
-<body>
-    <div class="full-img" id="fullImgBox">
-        <img src="HomePageImages/Adventure Zone.jpg" id="fullImg">
-        <span onclick="closeFullImg()">X</span>
+    <title > Merciado Amusement Park</title>
+    <!-- add logo  -->
+    <link rel="icon" style="width: 100%; height: 100%;" type="image/png" href="HomePageImages/MERCIADO LOGO.png"> 
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+
+    />
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="gallery.css" />
+  </head>
+  <body >
+    <!-- color theme 
+    #22577A
+#38A3A5
+#57CC99
+#80ED99
+#C7F9CC 
+    -->
+
+  <!-- Navbar -->
+  <nav
+  class="navbar navbar-expand-lg navbar-light"
+  style="
+    background-color: #22577a;
+    box-shadow: 0 1px 4px rgba(34, 87, 122, 0.3);  
+  "
+  >
+  <style>
+    .navbar-light .navbar-nav .nav-link {
+      color: #fff;
+    }
+  
+    .navbar-light .navbar-brand {
+      color: #fff;
+    }
+  
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .show > .nav-link {
+      color: #fff;
+    }  .navbar-light .navbar-brand:hover {
+      color: #fff;
+    }
+  
+  
+    /* .navbar-brand img {
+      width: 90px;
+    } */
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      width: 100%;
+      padding-right: 25px;
+      padding-left:25px;
+   
+  }
+  </style>
+  
+  <div class="container-fluid">
+    <!-- Logo -->
+    <a class="navbar-brand h-100" href="#">
+      <img  style="width: 60px;" src="HomePageImages/MERCIADO LOGO.png" alt="">
+    </a>
+  
+    <!-- Navbar Toggle Button for mobile responsiveness -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <!-- Navbar Links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="aboutUs.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="Ticket.html">Tickets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="Entertaintment.html">Entertainments</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link active dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            More
+          </a>
+          <ul
+            class="dropdown-menu"
+            style="background-color: #fff ;color: #22577a;"
+            aria-labelledby="navbarDropdown"
+          >
+          <li>
+            <a
+              style="background-color: #fff ;color: #22577a;"
+              class="dropdown-item "
+              href="gallery.html"
+              >Gallery</a
+            >
+          </li>
+            <li>
+              <a
+                style="background-color: #fff ;color: #22577a;"
+                class="dropdown-item "
+                href="attraction.html"
+                >Attractions/Zones</a
+              >
+            </li>
+            <li>
+              <a
+                style="background-color: #fff ;color: #22577a;"
+                class="dropdown-item "
+                href="disclaimer.html"
+                >Disclaimer</a
+              >
+            </li>
+            <li>
+              <a
+                style="background-color: #fff ; color: #22577a;"
+                class="dropdown-item "
+                href="contactUs.html"
+                >Contact Us</a
+              >
+            </li>
+          
+  
+          </ul>
+        </li>
+      </ul>
+  
     </div>
+  </div>
+  </nav>
+
+
+  <!-- gallery -->
+  <h1 class="gallery-heading">Gallery</h1>
 
     <div class="img-gallery">
+    
         <img src="HomePageImages/Adventure Zone.jpg" onclick="openFullImg()" >
-        <img src="HomePageImages/Food Court.jpg" onclick="openFullImg()" >
-        <img src="HomePageImages/spring-festival.jpg" onclick="openFullImg()" >
+        <img src="HomePageImages/Ride2.avif" onclick="openFullImg()" >
+        <img src="HomePageImages/Ride1.jpg" onclick="openFullImg()" >
         <img src="HomePageImages/supercoster.jpg" onclick="openFullImg()" >
         <img src="HomePageImages/sky rolar coster.jpg" onclick="openFullImg()" >
-        <img src="HomePageImages/grandentrance.jpg" onclick="openFullImg()" >
+        <img src="HomePageImages/liz-sanchez-vegas-95RpzJy8ry4-unsplash.jpg" onclick="openFullImg()" >
         <img src="HomePageImages/magical night.webp" onclick="openFullImg()" >
         <img src="HomePageImages/ferris-wheel.jpg" onclick="openFullImg()" >
 
     </div>
     
+<!-- Footer -->
+<footer style="background-color: #22577a; color: white; padding: 40px 20px">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <!-- Logo Section -->
+        <img src="HomePageImages/MERCIADO LOGO.png" alt="Amusement Park Logo" style="max-width: 50%; height: 100px;">
+        <p>Your destination for thrill, fun, and excitement since 1980.</p>
+      </div>
+      <div class="col-md-4 mb-3">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="home.html" style="color: #c7f9cc">Home</a></li>
+          <li><a href="aboutUs.html" style="color: #c7f9cc">About us</a></li>
+          <li><a href="attraction" style="color: #c7f9cc">Attractions</a></li>
+          <li><a href="Ticket.html" style="color: #c7f9cc">Tickets</a></li>
+          <li><a href="Entertaintment.html" style="color: #c7f9cc">Entertainment</a></li>
+          <li><a href="contactUs.html" style="color: #c7f9cc">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 mb-3">
+        <h5>Connect With Us</h5>
+        <a href="https://facebook.com/yourprofile" class="me-2" style="color: #80ed99"><i class="bi bi-facebook"></i> Facebook</a><br />
+        <a href="https://instagram.com/yourprofile" class="me-2" style="color: #80ed99"><i class="bi bi-instagram"></i> Instagram</a><br />
+        <a href="https://twitter.com/yourprofile" class="me-2" style="color: #80ed99"><i class="bi bi-twitter"></i> Twitter</a>
+      </div>
+    </div>
+    <hr style="border-color: #80ed99" />
+    <p class="mb-0">&copy; 2025 Merciado Amusement Park. All rights reserved.</p>
+  </div>
+</footer>
 
+<!-- First Bootstrap JS -->
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+  crossorigin="anonymous"
+></script>
     <script>
   var fullImgBox = document.getElementById("fullImgBox");
   var fullImg = document.getElementById("fullImg");
