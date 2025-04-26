@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Food Zone</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #22577a; box-shadow: 0 1px 4px rgba(34, 87, 122, 0.3);">
+  <style>
+    .navbar-light .navbar-nav .nav-link,
+    .navbar-light .navbar-brand,
+    .navbar-light .navbar-nav .nav-link.active {
+      color: #fff;
+    }
+
+    .navbar-light .navbar-brand:hover {
+      color: #fff;
+    }
+
+    .container, .container-fluid {
+      width: 100%;
+      padding-right: 25px;
+      padding-left: 25px;
+    }
+  </style>
+
+  <div class="container-fluid">
+    <a class="navbar-brand h-100" href="#">
+      <img style="width: 60px;" src="HomePageImages/MERCIADO LOGO.png" alt="Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link active" href="home.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="aboutUs.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link active" href="Ticket.html">Tickets</a></li>
+        <li class="nav-item"><a class="nav-link active" href="Entertaintment.html">Entertainments</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" data-bs-toggle="dropdown">More</a>
+          <ul class="dropdown-menu" style="background-color: #fff; color: #22577a;">
+            <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
+            <li><a class="dropdown-item" href="attraction.html">Attractions/Zones</a></li>
+            <li><a class="dropdown-item" href="disclaimer.html">Disclaimer</a></li>
+            <li><a class="dropdown-item" href="contactUs.html">Contact Us</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Food Cards -->
+<div class="container py-5">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://source.unsplash.com/600x400/?pizza" class="card-img-top" alt="Pizza">
+        <div class="card-body">
+          <h5 class="card-title">Pepperoni Pizza</h5>
+          <p class="card-text">Classic pizza topped with mozzarella, tomato sauce, and spicy pepperoni slices.</p>
+        </div>
+        <div class="card-footer"><small class="text-muted">Last updated 5 mins ago</small></div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://source.unsplash.com/600x400/?burger" class="card-img-top" alt="Burger">
+        <div class="card-body">
+          <h5 class="card-title">Cheeseburger</h5>
+          <p class="card-text">Juicy grilled patty with melted cheese, lettuce, tomato, and pickles on a toasted bun.</p>
+        </div>
+        <div class="card-footer"><small class="text-muted">Last updated 10 mins ago</small></div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://source.unsplash.com/600x400/?tacos" class="card-img-top" alt="Tacos">
+        <div class="card-body">
+          <h5 class="card-title">Street Tacos</h5>
+          <p class="card-text">Mini corn tortillas filled with seasoned beef, onion, cilantro, and fresh lime.</p>
+        </div>
+        <div class="card-footer"><small class="text-muted">Last updated 3 mins ago</small></div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://source.unsplash.com/600x400/?sushi" class="card-img-top" alt="Sushi">
+        <div class="card-body">
+          <h5 class="card-title">Assorted Sushi</h5>
+          <p class="card-text">A variety of fresh nigiri and maki rolls with soy sauce and wasabi.</p>
+        </div>
+        <div class="card-footer"><small class="text-muted">Last updated 8 mins ago</small></div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://source.unsplash.com/600x400/?pasta" class="card-img-top" alt="Pasta">
+        <div class="card-body">
+          <h5 class="card-title">Creamy Alfredo Pasta</h5>
+          <p class="card-text">Rich and creamy fettuccine alfredo topped with parmesan and herbs.</p>
+        </div>
+        <div class="card-footer"><small class="text-muted">Last updated 12 mins ago</small></div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://source.unsplash.com/600x400/?hotdog" class="card-img-top" alt="Hot Dog">
+        <div class="card-body">
+          <h5 class="card-title">Classic Hot Dog</h5>
+          <p class="card-text">Grilled hot dog in a bun with ketchup, mustard, onions, and relish.</p>
+        </div>
+        <div class="card-footer"><small class="text-muted">Last updated 7 mins ago</small></div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://source.unsplash.com/600x400/?fries" class="card-img-top" alt="Fries">
+        <div class="card-body">
+          <h5 class="card-title">French Fries</h5>
+          <p class="card-text">Golden crispy fries served with ketchup or cheese dip.</p>
+        </div>
+        <div class="card-footer"><small class="text-muted">Last updated 2 mins ago</small></div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://source.unsplash.com/600x400/?icecream" class="card-img-top" alt="Ice Cream">
+        <div class="card-body">
+          <h5 class="card-title">Ice Cream Sundae</h5>
+          <p class="card-text">Vanilla and chocolate scoops with whipped cream, syrup, and sprinkles.</p>
+        </div>
+        <div class="card-footer"><small class="text-muted">Last updated 1 min ago</small></div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://source.unsplash.com/600x400/?donuts" class="card-img-top" alt="Donuts">
+        <div class="card-body">
+          <h5 class="card-title">Glazed Donuts</h5>
+          <p class="card-text">Freshly made donuts with sweet glaze and colorful toppings.</p>
+        </div>
+        <div class="card-footer"><small class="text-muted">Last updated just now</small></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Footer -->
+<footer style="background-color: #22577a; color: white; padding: 40px 20px;">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <img src="HomePageImages/MERCIADO LOGO.png" alt="Logo" style="max-width: 50%; height: 100px;">
+        <p>Your destination for thrill, fun, and excitement since 1980.</p>
+      </div>
+      <div class="col-md-4 mb-3">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="home.html" style="color: #c7f9cc;">Home</a></li>
+          <li><a href="aboutUs.html" style="color: #c7f9cc;">About Us</a></li>
+          <li><a href="attraction.html" style="color: #c7f9cc;">Attractions</a></li>
+          <li><a href="Ticket.html" style="color: #c7f9cc;">Tickets</a></li>
+          <li><a href="Entertaintment.html" style="color: #c7f9cc;">Entertainment</a></li>
+          <li><a href="contactUs.html" style="color: #c7f9cc;">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 mb-3">
+        <h5>Connect With Us</h5>
+        <a href="https://facebook.com/yourprofile" class="me-2" style="color: #80ed99;">Facebook</a><br />
+        <a href="https://instagram.com/yourprofile" class="me-2" style="color: #80ed99;">Instagram</a><br />
+        <a href="https://twitter.com/yourprofile" class="me-2" style="color: #80ed99;">Twitter</a>
+      </div>
+    </div>
+    <hr style="border-color: #80ed99;" />
+    <p class="mb-0">&copy; 2025 Merciado Amusement Park. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
