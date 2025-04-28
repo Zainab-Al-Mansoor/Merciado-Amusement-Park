@@ -5,12 +5,17 @@ body {
     padding: 0;
 
 }
+.con1{
+    background-image: url('HomePageImages/disclamer.jpg');
 
+    background-size: cover;
+}
 .container {
     width: 40%;
     margin: 0 auto;
     padding: 20px;
    
+
 }
 
 h1 {
@@ -102,9 +107,7 @@ footer a {
     text-decoration: none;
 }
 body{
-    background-image: url(https://images.pexels.com/photos/1209978/pexels-photo-1209978.jpeg?cs=srgb&dl=pexels-galerieb-1209978.jpg&fm=jpg);
 
-    background-size: cover;
 }
 .map{
     justify-content: center;

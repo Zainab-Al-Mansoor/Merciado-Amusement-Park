@@ -113,13 +113,20 @@
     </div>
   </nav>
 
-<!-- alert -->
-<div class="alert alert-warning alert-dismissible fade show " id="ALertTicket" style="display: none;" role="alert">
+<!-- alert for buying one ticket  -->
+<div class="alert alert-warning      alert-dismissible fade show " id="ALertTicket" style="display: none;" role="alert">
 
     Thank you! Your ticket selection has been saved. Proceeding to checkout...
 
     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
   </div>
+  <!-- alert for  buying more ticket for form submission  -->
+   <!-- Ticket Booking Dummy Process -->
+   <div class="alert alert-warning alert-dismissible fade show" id="ALertTicketForm" style="display: none;" role="alert">
+    <strong>Booking Successful!</strong> Your visit has been scheduled. Please check your email for confirmation and further details.
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+  
 <!-- Ticket Section -->
 <div class="container mt-5">
     <h2 class="text-center card-text mb-4"><b>Purchase Your Tickets</b></h2>
@@ -212,7 +219,7 @@ And clicks on &quot;Book Now&quot; -->
 
     <!-- Submit Button -->
     <div class="text-center mt-3">
-      <button type="submit"  onclick="ShowAlert()"  class="btn button-light">Book Now</button>
+      <button type="submit"  onclick="OpeAlert(event)"  class="btn button-light">Book Now</button>
     </div>
   </form>
 </div>
@@ -263,6 +270,12 @@ And clicks on &quot;Book Now&quot; -->
         ALertTicket.style.display="block"
         }
         
+
+        let ALertTicketForm = document.getElementById('ALertTicketForm');
+  function OpeAlert(event) {
+    event.preventDefault(); // ⛔ Stops the form from submitting
+    ALertTicketForm.style.display = "block";
+  }
      </script>
    
 
