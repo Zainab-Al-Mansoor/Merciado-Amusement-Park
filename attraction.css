@@ -1,41 +1,44 @@
-
-
-.parallax-section {
-background-image: url('HomePageImages/attractionpark.webp'); /* Replace with your scenic image */
-height: 70vh;
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
-display: flex;
-align-items: center;
-justify-content: center;
-}
-.leaderboard-section a{
-  text-decoration: none;
-}
-.parallax-content {
-background-color: rgba(0, 0, 0, 0.5); /* semi-transparent overlay */
-padding: 40px;
-border-radius: 12px;
-max-width: 80%;
+/* navbar */
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
 }
 
-.parallax-content h2 {
-font-size: 2.5rem;
-font-weight: bold;
-color: #fff;
+.navbar-light .navbar-brand {
+  color: #fff;
 }
 
-.parallax-content p {
-font-size: 1.2rem;
-color: #e0f7fa;
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #fff;
 }
 
-.parallax-info-section {
-background-color: #f0fff4;
+.navbar-light .navbar-brand:hover {
+  color: #fff;
 }
+
+.container, .container-fluid {
+  width: 100%;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.nav-item a:hover {
+  background-color: #80ed99;
+  border-radius: 20px;
+  transition: background-color 0.3s ease, border-radius 0.3s ease;
+}
+
+/* Optional: Custom styling for the dropdown menu */
+.dropdown-menu {
+  background-color: #fff;
+  color: #22577a;
+}
+
+.dropdown-item:hover {
+  background-color: #80ed99;
+  color: #22577a;
+}
+
 
 
     /* General Layout */
@@ -182,92 +185,6 @@ background-color: #f0fff4;
     transform: translateY(0);
   }
 }
-  .leaderboard-section {
-    background-color: #C7F9CC;
-    padding: 40px;
-    text-align: center;
-  }
-
-  .leaderboard-section h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: #38A3A5;
-  }
-
-  .challenge-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  .challenge-item {
-    background-color: #80ED99;
-    border-radius: 8px;
-    margin-bottom: 15px;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease;
-  }
-
-
-
-  .challenge-item .challenge-name {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #38A3A5;
-  }
-
-  .challenge-item .challenge-description {
-    font-size: 1rem;
-    color: #2B5555;
-    max-width: 70%;
-    text-align: left;
-  }
-
-  .challenge-item .user-rank {
-    background-color: #38A3A5;
-    padding: 8px 15px;
-    color: white;
-    border-radius: 20px;
-    font-weight: bold;
-    font-size: 1.1rem;
-  }
-
-  .user-rank.first-place {
-    background-color: #FFD700;
-  }
-
-  .user-rank.second-place {
-    background-color: #C0C0C0;
-  }
-
-  .user-rank.third-place {
-    background-color: #CD7F32;
-  }
-
-  .challenge-item .progress-bar {
-    width: 100%;
-    background-color: #E0F8E0;
-    border-radius: 5px;
-    margin-top: 10px;
-    height: 12px;
-    position: relative;
-  }
-
-  .challenge-item .progress-bar span {
-    display: block;
-    height: 100%;
-    width: 60%; /* This can be adjusted based on user progress */
-    background-color: #57CC99;
-    border-radius: 5px;
-    position: absolute;
-    left: 0;
-  }
-
   .cta-btn {
     background-color: #57CC99;
     padding: 10px 20px;
@@ -295,3 +212,324 @@ footer a{
 
 
 
+/* new css */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  text-transform: capitalize;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  width: 100vw;
+  height: 110vh;
+  background: url(https://images.pexels.com/photos/5194709/pexels-photo-5194709.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  opacity: 0.8;
+}
+
+.hero-section {
+  padding-top: 40px;
+  margin-bottom: 50px;
+  color: whitesmoke;
+  text-align: center;
+  width: 800px;
+  height: 300px;
+  background-color: rgb(123, 112, 112);
+}
+
+.line {
+  width: 250px;
+  height: 4px;
+  background-color: #38A3A5;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+.button {
+  padding: 10px 30px;
+  background-color: #38A3A5;
+  border-radius: 20px;
+  color: whitesmoke;
+  margin-top: 20px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a.button {
+  text-decoration: none;
+}
+
+
+.button:hover {
+  background-color: #38A3A6;
+}
+
+
+#head {
+  margin-top: 25px;
+  margin-bottom: 40px;
+  font-size: 8vmin;
+  font-weight: bolder;
+}
+
+#head2 {
+  font-size: 6vmin;
+  font-weight: bolder;
+}
+
+
+section {
+  width: 80%;
+  margin: 80px auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5vmin;
+  color: #000;
+  font-weight: 400;
+  margin-top: 50px;
+
+}
+
+.heading {
+  color: #22577A;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 6vmin;
+}
+
+#ride1 {
+
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #57CC99;
+
+
+}
+
+#ride2 {
+
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #57CC99;
+
+
+}
+
+/* section2 */
+.col img {
+  height: 400px;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.content-col {
+  flex: 1;
+  padding: 20px;
+}
+
+.image-col {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+
+.row .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.ride {
+  font-size: 3vmin;
+  margin-top: 50px auto;
+  color: #22577A;
+}
+
+.danger {
+  width: 90%;
+  height: 110vh;
+  background-image: url(https://thumbs.dreamstime.com/b/aerial-view-roller-coaster-lush-park-netherlands-biddinghuizen-july-aerial-view-roller-coaster-winding-lush-334343049.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+#danger-content {
+
+  width: 50%;
+  padding: 50px;
+  text-align: start;
+  margin: 0 auto
+
+}
+
+#para {
+  letter-spacing: 1.8px;
+  line-height: 1.8;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: whitesmoke;
+}
+
+#head4 {
+  font-weight: bolder;
+  color: whitesmoke;  
+}
+
+/* section 3 */
+.bounce {
+  padding: 40px;
+  background-color: #f9f9f9;
+  align-items: center;
+}
+
+.bounce .image-gallery {
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+}
+.content-col {
+  flex: 1;
+  padding: 20px;
+}
+
+.card {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-cols {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  justify-items: center;
+  padding: 10px 0;
+}
+
+.image-gallery img {
+  width: 100%;
+  height: 350px;
+  max-width: 300px;
+  border-radius: 8px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  margin: 10px;
+}
+
+img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#head5 {
+  font-size: 45px;
+  font-weight: bolder;
+  color: #38A3A5;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#para1 {
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  line-height: 1.8;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#bounce-btn {
+  margin-top: 30px;
+  margin-left: 42%;
+  text-align: center;
+}
+/* section 2 */
+@media (max-width: 768px) {
+  .danger {
+      flex-direction: column;
+      height: auto;
+  }
+
+  #danger-content {
+      width: 90%;
+      margin: 0 auto;
+      padding: 30px 20px;
+      text-align: center;
+  }
+
+  #danger-content h1 {
+      font-size: 1.8rem;
+  }
+
+  #danger-content p {
+      font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .row {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .content-col, .image-col {
+      flex: none;
+      width: 100%;
+      padding: 15px;
+  }
+
+  .image-gallery {
+      flex-direction: row;
+      justify-content: space-around;
+  }
+
+ 
+}
+.bounce .button{
+  margin-top: 22px;
+}

@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Meta and Page Title -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Merciado Amusement Park</title>
+
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -11,70 +13,26 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <!-- logo -->
+
+    <!-- Favicon -->
     <link rel="icon" style="width: 100%; height: 100%;" type="image/png" href="HomePageImages/MERCIADO LOGO.png"> 
 
-    <!-- icons -->
+    <!-- Icons and Custom CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="ticket.css" />
   </head>
-  <body >
-    <!-- color theme 
-
-#80ED99
-#C7F9CC 
-    -->
-  <!-- Navbar -->
+  <body>
+   
+  <!--.....................................................................Then Navbar Section Starts ..................................... -->
   <nav class="navbar navbar-expand-lg navbar-dark text-light" style="background-color: #22577a; box-shadow: 0 1px 4px rgba(34, 87, 122, 0.3);">
-    <style>
-      .navbar-light .navbar-nav .nav-link {
-        color: #fff;
-      }
-  
-      .navbar-light .navbar-brand {
-        color: #fff;
-      }
-  
-      .navbar-light .navbar-nav .nav-link.active,
-      .navbar-light .navbar-nav .show > .nav-link {
-        color: #fff;
-      }
-  
-      .navbar-light .navbar-brand:hover {
-        color: #fff;
-      }
-  
-      .container, .container-fluid {
-        width: 100%;
-        padding-right: 25px;
-        padding-left: 25px;
-      }
-  
-      .nav-item a:hover {
-        background-color: #80ed99;
-        border-radius: 20px;
-        transition: background-color 0.3s ease, border-radius 0.3s ease;
-      }
-  
-      /* Optional: Custom styling for the dropdown menu */
-      .dropdown-menu {
-        background-color: #fff;
-        color: #22577a;
-      }
-  
-      .dropdown-item:hover {
-        background-color: #80ed99;
-        color: #22577a;
-      }
-    </style>
-  
     <div class="container-fluid">
+      
       <!-- Logo -->
       <a class="navbar-brand h-100" href="#">
         <img style="width: 60px;" src="HomePageImages/MERCIADO LOGO.png" alt="Logo">
       </a>
   
-      <!-- Navbar Toggle Button for mobile responsiveness -->
+      <!-- Toggle Button -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -82,21 +40,13 @@
       <!-- Navbar Links -->
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="aboutUs.html">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="Ticket.html">Tickets</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="Entertaintment.html">Entertainments</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="gallery.html">Gallery</a>
-          </li>
+          <li class="nav-item"><a class="nav-link active" href="home.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="aboutUs.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link active" href="Ticket.html">Tickets</a></li>
+          <li class="nav-item"><a class="nav-link active" href="Entertaintment.html">Entertainments</a></li>
+          <li class="nav-item"><a class="nav-link active" href="gallery.html">Gallery</a></li>
+
+          <!-- More Dropdown -->
           <li class="nav-item dropdown">
             <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               More
@@ -113,24 +63,23 @@
     </div>
   </nav>
 
-<!-- alert for buying one ticket  -->
-<div class="alert alert-warning      alert-dismissible fade show " id="ALertTicket" style="display: none;" role="alert">
-
+  <!-- Alert for single ticket purchase -->
+  <div class="alert alert-warning alert-dismissible fade show" id="ALertTicket" style="display: none;" role="alert">
     Thank you! Your ticket selection has been saved. Proceeding to checkout...
-
     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
   </div>
-  <!-- alert for  buying more ticket for form submission  -->
-   <!-- Ticket Booking Dummy Process -->
-   <div class="alert alert-warning alert-dismissible fade show" id="ALertTicketForm" style="display: none;" role="alert">
+
+  <!-- Alert for ticket form submission -->
+  <div class="alert alert-warning alert-dismissible fade show" id="ALertTicketForm" style="display: none;" role="alert">
     <strong>Booking Successful!</strong> Your visit has been scheduled. Please check your email for confirmation and further details.
     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
   </div>
   
-<!-- Ticket Section -->
-<div class="container mt-5">
-    <h2 class="text-center card-text mb-4"><b>Purchase Your Tickets</b></h2>
+  <!--.....................................................................Then Ticket Pricing Section Starts ..................................... -->
+  <div class="container mt-5">
+    <h1 class="text-center my-4" style="color: #22577a; font-weight: 700;">Purchase Your Tickets</h1>
     <div class="row">
+      
       <!-- Adult Ticket -->
       <div class="col-md-4 mb-4">
         <div class="card ticket-card">
@@ -138,102 +87,100 @@
             <h5 class="card-title">Adult Ticket</h5>
             <p class="card-text">Enjoy unlimited access to all rides and attractions in the park for one day.</p>
             <h4 class="text-success ticket-price">$50.00</h4>
-            <button onclick="ShowAlert()" class="button button-accent  w-100">Buy Now</button>
+            <button onclick="ShowAlert()" class="button button-accent w-100">Buy Now</button>
           </div>
         </div>
       </div>
+
       <!-- Child Ticket -->
       <div class="col-md-4 mb-4">
         <div class="card ticket-card">
           <div class="card-body">
             <h5 class="card-title">Child Ticket</h5>
-            <p class="card-text">Enjoy unlimited access to all rides and attractions for children under 12 years old.</p>
+            <p class="card-text">For children under 12 years old.</p>
             <h4 class="text-success ticket-price">$30.00</h4>
-            <button  onclick="ShowAlert()" class="button button-accent  w-100">Buy Now</button>
+            <button onclick="ShowAlert()" class="button button-accent w-100">Buy Now</button>
           </div>
         </div>
       </div>
+
       <!-- Senior Ticket -->
       <div class="col-md-4 mb-4">
         <div class="card ticket-card">
           <div class="card-body">
             <h5 class="card-title">Senior Ticket</h5>
-            <p class="card-text">Enjoy unlimited access to all rides for seniors aged 60+.</p>
+            <p class="card-text">For seniors aged 60+ with full access.</p>
             <h4 class="text-success ticket-price">$40.00</h4>
-            <button  onclick="ShowAlert()" class="button button-accent  w-100">Buy Now</button>
+            <button onclick="ShowAlert()" class="button button-accent w-100">Buy Now</button>
           </div>
         </div>
       </div>
+
       <!-- Family Pack -->
       <div class="col-md-4 mb-1">
         <div class="card ticket-card">
           <div class="card-body">
             <h5 class="card-title">Family Pack</h5>
-            <p class="card-text">Get 2 Adult Tickets + 2 Child Tickets at a discounted rate.</p>
+            <p class="card-text">2 Adults + 2 Children at a discounted price.</p>
             <h4 class="text-success ticket-price">$140.00</h4>
-            <button onclick="ShowAlert()" class="button button-accent  w-100">Buy Now</button>
+            <button onclick="ShowAlert()" class="button button-accent w-100">Buy Now</button>
           </div>
         </div>
       </div>
+
     </div>
   </div>
-  
 
-<!-- Ticket Booking Dummy Process
-A simple form where user selects:
- Date
- Number of people
- Ticket type
-And clicks on &quot;Book Now&quot; -->
+  <!--.....................................................................Then Booking Form Section Starts ..................................... -->
+  <div class="container ticket-booking-container mt-5 mb-5">
+    <h1 class="text-center my-4" style="color: #22577a; font-weight: 700;">Book Your Visit</h1>
+    <form class="booking-form p-4 rounded shadow">
+      <div class="row justify-content-center">
+        
+        <!-- Select Date -->
+        <div class="col-md-4 mb-3">
+          <label for="visitDate" class="form-label booking-label">Select Date</label>
+          <input type="date" class="form-control booking-input" id="visitDate" required>
+        </div>
 
+        <!-- Number of People -->
+        <div class="col-md-4 mb-3">
+          <label for="peopleCount" class="form-label booking-label">Number of People</label>
+          <input type="number" class="form-control booking-input" id="peopleCount" min="1" required>
+        </div>
 
-
-<div class="container ticket-booking-container mt-5 mb-5">
-  <h3 class="text-center booking-title mb-4"><b>Book Your Visit</b></h3>
-  <form class="booking-form p-4 rounded shadow">
-    <div class="row justify-content-center">
-      <!-- Date -->
-      <div class="col-md-4 mb-3">
-        <label for="visitDate" class="form-label booking-label">Select Date</label>
-        <input type="date" class="form-control booking-input" id="visitDate" required>
+        <!-- Ticket Type -->
+        <div class="col-md-4 mb-3">
+          <label for="ticketType" class="form-label booking-label">Ticket Type</label>
+          <select class="form-select booking-input" id="ticketType" required>
+            <option value="" disabled selected>Choose Ticket Type</option>
+            <option value="adult">Adult</option>
+            <option value="child">Child</option>
+            <option value="senior">Senior</option>
+            <option value="family">Family Pack</option>
+          </select>
+        </div>
       </div>
 
-      <!-- Number of People -->
-      <div class="col-md-4 mb-3">
-        <label for="peopleCount" class="form-label booking-label">Number of People</label>
-        <input type="number" class="form-control booking-input" id="peopleCount" min="1" required>
+      <!-- Submit Button -->
+      <div class="text-center mt-3">
+        <button type="submit" onclick="OpeAlert(event)" class="btn button-light">Book Now</button>
       </div>
+    </form>
+  </div>
 
-      <!-- Ticket Type -->
-      <div class="col-md-4 mb-3">
-        <label for="ticketType" class="form-label booking-label">Ticket Type</label>
-        <select class="form-select booking-input" id="ticketType" required>
-          <option value="" disabled selected>Choose Ticket Type</option>
-          <option value="adult">Adult</option>
-          <option value="child">Child</option>
-          <option value="senior">Senior</option>
-          <option value="family">Family Pack</option>
-        </select>
-      </div>
-    </div>
-
-    <!-- Submit Button -->
-    <div class="text-center mt-3">
-      <button type="submit"  onclick="OpeAlert(event)"  class="btn button-light">Book Now</button>
-    </div>
-  </form>
-</div>
-
-
-   <!-- Footer -->
-   <footer style="background-color: #22577a; color: white; padding: 40px 20px">
+  <!--.....................................................................Then Footer Starts ..................................... -->
+  <footer style="background-color: #22577a; color: white; padding: 40px 20px">
     <div class="container text-center">
       <div class="row">
+        
+        <!-- Footer Logo Area -->
         <div class="col-md-4 mb-3">
-          <!-- Logo Section -->
           <img src="HomePageImages/MERCIADO LOGO.png" alt="Amusement Park Logo" style="max-width: 50%; height: 100px;">
           <p>Your destination for thrill, fun, and excitement since 1980.</p>
         </div>
+
+        <!-- Footer Links -->
         <div class="col-md-4 mb-3">
           <h5>Quick Links</h5>
           <ul class="list-unstyled">
@@ -245,6 +192,8 @@ And clicks on &quot;Book Now&quot; -->
             <li><a href="contactUs.html" style="color: #c7f9cc">Contact</a></li>
           </ul>
         </div>
+
+        <!-- Social Links -->
         <div class="col-md-4 mb-3">
           <h5>Connect With Us</h5>
           <a href="https://facebook.com/yourprofile" class="me-2" style="color: #80ed99"><i class="bi bi-facebook"></i> Facebook</a><br />
@@ -252,32 +201,23 @@ And clicks on &quot;Book Now&quot; -->
           <a href="https://twitter.com/yourprofile" class="me-2" style="color: #80ed99"><i class="bi bi-twitter"></i> Twitter</a>
         </div>
       </div>
+
+      <!-- Footer Bottom -->
       <hr style="border-color: #80ed99" />
       <p class="mb-0">&copy; 2025 Merciado Amusement Park. All rights reserved.</p>
     </div>
   </footer>
-    <!-- ✅ First Bootstrap JS -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
 
-    <!-- ✅ Then  JS -->
-     <script>
-        let ALertTicket=document.getElementById('ALertTicket');
-      function  ShowAlert(){
-        ALertTicket.style.display="block"
-        }
-        
+  <!--.....................................................................Then Scripts Starts ..................................... -->
+  <!-- Bootstrap JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
 
-        let ALertTicketForm = document.getElementById('ALertTicketForm');
-  function OpeAlert(event) {
-    event.preventDefault(); // ⛔ Stops the form from submitting
-    ALertTicketForm.style.display = "block";
-  }
-     </script>
-   
+  <!-- Custom Script -->
+  <script src="ticket.js"></script>
 
-  </body>
+</body>
 </html>

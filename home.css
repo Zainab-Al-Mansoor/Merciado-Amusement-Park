@@ -5,6 +5,48 @@
     box-sizing: border-box;
 }
 
+
+      .navbar-light .navbar-nav .nav-link {
+        color: #fff;
+      }
+  
+      .navbar-light .navbar-brand {
+        color: #fff;
+      }
+  
+      .navbar-light .navbar-nav .nav-link.active,
+      .navbar-light .navbar-nav .show > .nav-link {
+        color: #fff;
+      }
+  
+      .navbar-light .navbar-brand:hover {
+        color: #fff;
+      }
+  
+      .container, .container-fluid {
+        width: 100%;
+        padding-right: 25px;
+        padding-left: 25px;
+      }
+  
+      .nav-item a:hover {
+        background-color: #80ed99;
+        border-radius: 20px;
+        transition: background-color 0.3s ease, border-radius 0.3s ease;
+      }
+  
+      /* Optional: Custom styling for the dropdown menu */
+      .dropdown-menu {
+        background-color: #fff;
+        color: #22577a;
+      }
+  
+      .dropdown-item:hover {
+        background-color: #80ed99;
+        color: #22577a;
+      }
+ 
+
 /* Body and Typography */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

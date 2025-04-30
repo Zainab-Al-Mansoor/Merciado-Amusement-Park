@@ -1,120 +1,157 @@
+/* General Body Styling */
 body {
-    background-color: #C7F9CC;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  a{
-      text-decoration: none;
-  }
-  
-  .card-text{
-      color: #22577A;
-  }
-  
-  .card-title{
-      color: #22577A;
-  
-  }
-  /* Button Styles */
-  button {
-      padding: 15px 30px;
-      font-weight: bold;
-      border-radius: 5px;
-      border: none;
-      cursor: pointer;
-      text-decoration: none;
-      font-size: 1rem;
-      color: #ffffff;
-      transition: background-color 0.3s, color 0.3s;
-  }
-  
-  .button-primary {
-      background: linear-gradient(135deg, #22577A, #38A3A5);
-  }
-  
-  .button-secondary {
-      background: linear-gradient(135deg, #57CC99, #80ED99);
-  }
-  
-  .button-accent {
-      background: linear-gradient(135deg, #19bdc0, #57CC99);
-  }
-  
-  .button-light {
-      background: linear-gradient(135deg, #C7F9CC, #57CC99);
-  }
-  
-  .button-dark {
-      background: linear-gradient(135deg, #80ED99, #57CC99);
-  }
-  
-  .button-primary:hover,
-  .button-secondary:hover,
-  .button-accent:hover,
-  .button-light:hover,
-  .button-dark:hover {
-      color: #ffffff;
-      transform: scale(1.05);
-  }
+  background-color: #C7F9CC;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-    /* cards
-     */
-     .ticket-card{
-      background-color: #ffffff;
-      border: 1px solid #c7f9cc;
-      background-image: linear-gradient(135deg, #e9fdf0, #ffffff);
-     }
-    /* Booking Form Container */
-  .ticket-booking-container {
-      max-width: 1000px;
-      margin: auto;
-    }
-    
-    /* Booking Form Styling */
-    .booking-form {
-      background-color: #ffffff;
-      border: 1px solid #c7f9cc;
-      background-image: linear-gradient(135deg, #e9fdf0, #ffffff);
-    }
-    
-    /* Booking Title */
-    .booking-title {
-      color: #22577a;
-    }
-    
-    /* Form Labels */
-    .booking-label {
-      font-weight: 600;
-      color: #22577a;
-    }
-    
-    /* Form Inputs */
-    .booking-input {
-      border-radius: 8px;
-      border: 1px solid #80ed99;
-      padding: 10px;
-      transition: all 0.3s ease;
-    }
-    
-  
-    footer {
-      position: static
-      ;
-      bottom: 0;
-      width: 100%;
-    }
-    /* for all anchor tag */
-a{
+/*..................................................................... Navbar Styles ..................................... */
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-light .navbar-brand {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #fff;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: #fff;
+}
+
+/* Container Padding Setup */
+.container, .container-fluid {
+  width: 100%;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+/* Navbar Link Hover Effect */
+.nav-item a:hover {
+  background-color: #80ed99;
+  border-radius: 20px;
+  transition: background-color 0.3s ease, border-radius 0.3s ease;
+}
+
+/*..................................................................... Dropdown Menu Styling ..................................... */
+
+.dropdown-menu {
+  background-color: #fff;
+  color: #22577a;
+}
+
+.dropdown-item:hover {
+  background-color: #80ed99;
+  color: #22577a;
+}
+
+/*..................................................................... Link and Card Colors ..................................... */
+
+a {
+  text-decoration: none;
+}
+
+.card-text {
+  color: #22577A;
+}
+
+.card-title {
+  color: #22577A;
+}
+
+/*..................................................................... Button Styles ..................................... */
+
+button {
+  padding: 15px 30px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #ffffff;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button-primary {
+  background: linear-gradient(135deg, #22577A, #38A3A5);
+}
+
+.button-secondary {
+  background: linear-gradient(135deg, #57CC99, #80ED99);
+}
+
+.button-accent {
+  background: linear-gradient(135deg, #19bdc0, #57CC99);
+}
+
+.button-light {
+  background: linear-gradient(135deg, #C7F9CC, #57CC99);
+}
+
+.button-dark {
+  background: linear-gradient(135deg, #80ED99, #57CC99);
+}
+
+.button-primary:hover,
+.button-secondary:hover,
+.button-accent:hover,
+.button-light:hover,
+.button-dark:hover {
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+/*..................................................................... Ticket Card Styling ..................................... */
+
+.ticket-card {
+  background-color: #ffffff;
+  border: 1px solid #c7f9cc;
+  background-image: linear-gradient(135deg, #e9fdf0, #ffffff);
+}
+
+/*..................................................................... Booking Form Styles ..................................... */
+
+.ticket-booking-container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.booking-form {
+  background-color: #ffffff;
+  border: 1px solid #c7f9cc;
+  background-image: linear-gradient(135deg, #e9fdf0, #ffffff);
+}
+
+.booking-title {
+  color: #22577a;
+}
+
+.booking-label {
+  font-weight: 600;
+  color: #22577a;
+}
+
+.booking-input {
+  border-radius: 8px;
+  border: 1px solid #80ed99;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+/*..................................................................... Footer Styles ..................................... */
+
+footer {
+  position: static;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Redundant Anchor Styling */
+a {
   text-decoration: none;
 }
