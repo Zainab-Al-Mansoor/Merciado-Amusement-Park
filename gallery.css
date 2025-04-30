@@ -1,85 +1,93 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-body{
+
+body {
     background: #F0FFF4;
 }
+
 /* <!--...................................................................... Navbar............................................................... --> */
 .navbar-light .navbar-nav .nav-link {
-  color: #fff;
+    color: #fff;
 }
 
 .navbar-light .navbar-brand {
-  color: #fff;
+    color: #fff;
 }
 
 .navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .show > .nav-link {
-  color: #fff;
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
 }
 
 .navbar-light .navbar-brand:hover {
-  color: #fff;
+    color: #fff;
 }
 
-.container, .container-fluid {
-  width: 100%;
-  padding-right: 25px;
-  padding-left: 25px;
+.container,
+.container-fluid {
+    width: 100%;
+    padding-right: 25px;
+    padding-left: 25px;
 }
 
 .nav-item a:hover {
-  background-color: #80ed99;
-  border-radius: 20px;
-  transition: background-color 0.3s ease, border-radius 0.3s ease;
+    background-color: #80ed99;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, border-radius 0.3s ease;
 }
 
 /* Optional: Custom styling for the dropdown menu */
 .dropdown-menu {
-  background-color: #fff;
-  color: #22577a;
+    background-color: #fff;
+    color: #22577a;
 }
 
 .dropdown-item:hover {
-  background-color: #80ed99;
-  color: #22577a;
+    background-color: #80ed99;
+    color: #22577a;
 }
 
 
-a{
+a {
     text-decoration: none;
 }
+
 /* <!--...................................................................... Gallery............................................................... --> */
-.gallery-heading{
+.gallery-heading {
     font-weight: bolder;
     text-align: center;
     color: #22577a;
-     font-weight: 700;
+    font-weight: 700;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.img-gallery{
+
+.img-gallery {
     width: 80%;
     margin: 0 auto 50px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 30px;
 }
-.img-gallery img{
+
+.img-gallery img {
     width: 100%;
     height: 280px;
     border-radius: 10px;
 
     cursor: pointer;
 }
-.img-gallery img:hover{
+
+.img-gallery img:hover {
     transform: scale(0.8) rotate(-15deg);
     border-radius: 20px;
-    box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2) ;
+    box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
 }
-.full-img{
+
+.full-img {
     width: 100%;
     height: 100vh;
     background: rgba(0, 0, 0, 0.9);
@@ -90,11 +98,13 @@ a{
     align-items: center;
     justify-content: center;
 }
-.full-img img{
+
+.full-img img {
     width: 90%;
     max-width: 500px;
 }
-.full-img span{
+
+.full-img span {
     position: absolute;
     top: 5%;
     right: 5%;

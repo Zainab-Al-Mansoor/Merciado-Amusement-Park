@@ -26,25 +26,25 @@ function SubmittedEmail() {
 
 // Show alert with testimonial details
 function showTestimonialDetails() {
-  alert("More details about this testimonial will be shown in Our Merciado Amusement Park!");
+  alert(
+    "More details about this testimonial will be shown in Our Merciado Amusement Park!"
+  );
 }
 
 // Handle favorite ride form submission
-document.getElementById('favoriteRideForm').addEventListener('submit', function(e) {
+document
+  .getElementById("favoriteRideForm")
+  .addEventListener("submit", function (e) {
     e.preventDefault(); // Prevent page refresh
 
     const selectedRide = document.querySelector('input[name="ride"]:checked');
 
     // If a ride is selected, show confirmation message
     if (selectedRide) {
-        document.getElementById('confirmationMessage').style.display = 'block';
-        document.getElementById('selectedRide').innerText = selectedRide.value;
+      document.getElementById("confirmationMessage").style.display = "block";
+      document.getElementById("selectedRide").innerText = selectedRide.value;
     } else {
-        // If no ride is selected, show alert
-        alert("Please select a ride before submitting.");
+      // If no ride is selected, show alert
+      alert("Please select a ride before submitting.");
     }
-});
-
-
-
-
+  });
