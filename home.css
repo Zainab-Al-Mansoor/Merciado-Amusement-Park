@@ -5,7 +5,16 @@
     box-sizing: border-box;
 }
 
-
+/* for all anchor tag */
+a{
+    text-decoration: none;
+}
+/* Body and Typography */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #22577A;
+}
       .navbar-light .navbar-nav .nav-link {
         color: #fff;
       }
@@ -22,7 +31,7 @@
       .navbar-light .navbar-brand:hover {
         color: #fff;
       }
-  
+     
       .container, .container-fluid {
         width: 100%;
         padding-right: 25px;
@@ -32,6 +41,7 @@
       .nav-item a:hover {
         background-color: #80ed99;
         border-radius: 20px;
+        color: #22577a;
         transition: background-color 0.3s ease, border-radius 0.3s ease;
       }
   
@@ -45,18 +55,17 @@
         background-color: #80ed99;
         color: #22577a;
       }
- 
+      .btn-outline-light:hover {
+        color: #fff !important;
+      }
+      form a{
+        text-decoration: none !important;
+        color: #fff !important;
+        background: #22577a!important;
+      }
+      
 
-/* Body and Typography */
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    color: #22577A;
-}
-/* for all anchor tag */
-a{
-    text-decoration: none;
-}
+
 
   .parallax-section {
   background-image: url('HomePageImages/park.jpg'); /* Replace with your scenic image */

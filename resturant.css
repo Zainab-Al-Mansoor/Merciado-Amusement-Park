@@ -39,6 +39,14 @@
       background-color: #80ed99;
       color: #22577a;
     }
+    .btn-outline-light:hover {
+      color: #fff !important;
+    }
+    form a{
+      text-decoration: none !important;
+      color: #fff !important;
+      background: #22577a!important;
+    }
 /* footer a tag */
 footer a{
     text-decoration: none;

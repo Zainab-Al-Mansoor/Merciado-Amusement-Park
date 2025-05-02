@@ -27,7 +27,14 @@
   border-radius: 20px;
   transition: background-color 0.3s ease, border-radius 0.3s ease;
 }
-
+.btn-outline-light:hover {
+  color: #fff !important;
+}
+form a{
+  text-decoration: none !important;
+  color: #fff !important;
+  background: #22577a!important;
+}
 /* Optional: Custom styling for the dropdown menu */
 .dropdown-menu {
   background-color: #fff;

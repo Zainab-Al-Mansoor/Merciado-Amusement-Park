@@ -47,7 +47,14 @@ body {
   color: #22577a;
 }
 
-
+.btn-outline-light:hover {
+    color: #fff !important;
+  }
+  form a{
+    text-decoration: none !important;
+    color: #fff !important;
+    background: #22577a!important;
+  }
 /* contact form  */
 .con1{
     background-image: url(https://images.pexels.com/photos/1209978/pexels-photo-1209978.jpeg?cs=srgb&dl=pexels-galerieb-1209978.jpg&fm=jpg);

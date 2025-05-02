@@ -45,6 +45,14 @@ padding: 0px;
   background-color: #80ed99;
   color: #22577a;
 }
+.btn-outline-light:hover {
+  color: #fff !important;
+}
+form a{
+  text-decoration: none !important;
+  color: #fff !important;
+  background: #22577a!important;
+}
 .parallax-section {
   background-image: url('HomePageImages/disclamer.jpg'); /* Replace with your scenic image */
   height: 70vh;
@@ -80,7 +88,26 @@ padding: 0px;
 .parallax-info-section {
   background-color: #f0fff4;
 }
- 
+
+
+
+
+
+
+/* Styles for mobile devices */
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 18rem;
+  }
+}
+
 
 footer a{
   text-decoration: none;

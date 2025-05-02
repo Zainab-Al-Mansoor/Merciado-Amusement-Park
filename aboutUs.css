@@ -18,6 +18,14 @@ body {
 .navbar-light .navbar-brand {
   color: #fff;
 }
+.btn-outline-light:hover {
+  color: #fff !important;
+}
+form a{
+  text-decoration: none !important;
+  color: #fff !important;
+  background: #22577a!important;
+}
 
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .show > .nav-link {

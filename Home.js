@@ -2,8 +2,8 @@
 function SubmittedEmail() {
   let EmailInput = document.getElementById("EmailInput").value;
   let EmailError = document.getElementById("EmailError");
-
-  // Check if email is empty
+// Clear the email input field
+document.getElementById("EmailInput").value = '';  // Check if email is empty
   if (EmailInput === "") {
     EmailError.textContent = "Please enter your email.";
     EmailError.style.display = "block";

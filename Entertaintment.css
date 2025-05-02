@@ -39,6 +39,14 @@
   background-color: #80ed99;
   color: #22577a;
 }
+.btn-outline-light:hover {
+  color: #fff !important;
+}
+form a{
+  text-decoration: none !important;
+  color: #fff !important;
+  background: #22577a!important;
+}
   .parallax-section {
   background-image: url('HomePageImages/Ride3.webp'); 
   height: 70vh;
