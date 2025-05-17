@@ -68,7 +68,7 @@ body {
 
 
   .parallax-section {
-  background-image: url('HomePageImages/park.jpg'); /* Replace with your scenic image */
+  background-image: url('HomePageImages/main-image.jpg'); /* Replace with your scenic image */
   height: 70vh;
   background-attachment: fixed;
   background-position: center;
