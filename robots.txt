@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /disclaimer.html
+
+Sitemap: https://zainab-al-mansoor.github.io/Merciado-Amusement-Park/sitemap.xml
