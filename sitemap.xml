@@ -1,86 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-<!-- full web -->
-  <url>
-    <loc>https://zainab-al-mansoor.github.io/Merciado-Amusement-Park/</loc>
-    <lastmod>2025-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <!-- home -->
-  <url>
-    <loc>https://zainab-al-mansoor.github.io/Merciado-Amusement-Park/index.html</loc>
-    <lastmod>2025-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-<!-- ticket -->
-  <url>
-    <loc>https://zainab-al-mansoor.github.io/Merciado-Amusement-Park/Ticket.html</loc>
-    <lastmod>2025-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-<!-- resturant -->
-  <url>
-    <loc>https://zainab-al-mansoor.github.io/Merciado-Amusement-Park/resturant.html</loc>
-    <lastmod>2025-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-<!-- gallery -->
-  <url>
-    <loc>https://zainab-al-mansoor.github.io/Merciado-Amusement-Park/gallery.html</loc>
-    <lastmod>2025-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-<!-- Entertainment -->
-  <url>
-    <loc>https://zainab-al-mansoor.github.io/Merciado-Amusement-Park/Entertainment.html</loc>
-    <lastmod>2025-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
+<url>
+  <loc>https://zainab-al-mansoor.github.io/Merciado-Amusement-Park/</loc>
+  <lastmod>2025-05-31T07:43:30+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://zainab-al-mansoor.github.io/Merciado-Amusement-Park/index.html</loc>
+  <lastmod>2025-05-31T07:43:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://zainab-al-mansoor.github.io/Merciado-Amusement-Park/aboutUs.html</loc>
+  <lastmod>2025-05-31T07:43:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://zainab-al-mansoor.github.io/Merciado-Amusement-Park/Ticket.html</loc>
+  <lastmod>2025-05-31T07:43:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://zainab-al-mansoor.github.io/Merciado-Amusement-Park/Entertaintment.html</loc>
+  <lastmod>2025-05-31T07:43:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://zainab-al-mansoor.github.io/Merciado-Amusement-Park/gallery.html</loc>
+  <lastmod>2025-05-31T07:43:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://zainab-al-mansoor.github.io/Merciado-Amusement-Park/resturant.html</loc>
+  <lastmod>2025-05-31T07:43:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://zainab-al-mansoor.github.io/Merciado-Amusement-Park/attraction.html</loc>
+  <lastmod>2025-05-31T07:43:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://zainab-al-mansoor.github.io/Merciado-Amusement-Park/disclaimer.html</loc>
+  <lastmod>2025-05-31T07:43:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://zainab-al-mansoor.github.io/Merciado-Amusement-Park/contactUs.html</loc>
+  <lastmod>2025-05-31T07:43:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://zainab-al-mansoor.github.io/Merciado-Amusement-Park/attraction</loc>
+  <lastmod>2025-05-31T07:43:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 
-  <!-- disclaimer -->
-
-  <url>
-    <loc>https://zainab-al-mansoor.github.io/Merciado-Amusement-Park/disclaimer.html</loc>
-    <lastmod>2025-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-<!-- attraction -->
-  <url>
-    <loc>https://zainab-al-mansoor.github.io/Merciado-Amusement-Park/attraction.html</loc>
-    <lastmod>2025-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-<!-- about -->
-  <url>
-    <loc>https://zainab-al-mansoor.github.io/Merciado-Amusement-Park/aboutUs.html</loc>
-    <lastmod>2025-05-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-<!-- contact -->
-  <url>
-    <loc>https://zainab-al-mansoor.github.io/Merciado-Amusement-Park/contactUs.html</loc>
-    <lastmod>2025-05-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Add more URLs here as needed -->
 
 </urlset>
